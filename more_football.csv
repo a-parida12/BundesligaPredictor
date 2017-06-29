@@ -1,0 +1,1531 @@
+season,matchday,match,home,guest,homegoals,guestgoals
+2016/17,34,1,Bayern,Freiburg,4,1
+2016/17,34,2,Dortmund,Bremen,4,3
+2016/17,34,3,Gladbach,Darmstadt,2,2
+2016/17,34,4,Hertha,Leverkusen,2,6
+2016/17,34,5,Köln,Mainz,2,0
+2016/17,34,6,HSV,Wolfsburg,2,1
+2016/17,34,7,Ingolstadt,Schalke,1,1
+2016/17,34,8,Hoffenheim,Augsburg,0,0
+2016/17,34,9,E. Frankfurt,Leipzig,2,2
+2016/17,33,1,Leverkusen,Köln,2,2
+2016/17,33,2,Schalke,HSV,1,1
+2016/17,33,3,Mainz,E. Frankfurt,4,2
+2016/17,33,4,Wolfsburg,Gladbach,1,1
+2016/17,33,5,Augsburg,Dortmund,1,1
+2016/17,33,6,Bremen,Hoffenheim,3,5
+2016/17,33,7,Darmstadt,Hertha,0,2
+2016/17,33,8,Freiburg,Ingolstadt,1,1
+2016/17,33,9,Leipzig,Bayern,4,5
+2016/17,32,1,Köln,Bremen,4,3
+2016/17,32,2,Bayern,Darmstadt,1,0
+2016/17,32,3,Dortmund,Hoffenheim,2,1
+2016/17,32,4,Gladbach,Augsburg,1,1
+2016/17,32,5,Ingolstadt,Leverkusen,1,1
+2016/17,32,6,E. Frankfurt,Wolfsburg,0,2
+2016/17,32,7,Hertha,Leipzig,1,4
+2016/17,32,8,HSV,Mainz,0,0
+2016/17,32,9,Freiburg,Schalke,2,0
+2016/17,31,1,Leverkusen,Schalke,1,4
+2016/17,31,2,Dortmund,Köln,0,0
+2016/17,31,3,Mainz,Gladbach,1,2
+2016/17,31,4,Bremen,Hertha,2,0
+2016/17,31,5,Darmstadt,Freiburg,3,0
+2016/17,31,6,Leipzig,Ingolstadt,0,0
+2016/17,31,7,Wolfsburg,Bayern,0,6
+2016/17,31,8,Augsburg,HSV,4,0
+2016/17,31,9,Hoffenheim,E. Frankfurt,1,0
+2016/17,30,1,Köln,Hoffenheim,1,1
+2016/17,30,2,Bayern,Mainz,2,2
+2016/17,30,3,Hertha,Wolfsburg,1,0
+2016/17,30,4,HSV,Darmstadt,1,2
+2016/17,30,5,Ingolstadt,Bremen,2,4
+2016/17,30,6,E. Frankfurt,Augsburg,3,1
+2016/17,30,7,Gladbach,Dortmund,2,3
+2016/17,30,8,Freiburg,Leverkusen,2,1
+2016/17,30,9,Schalke,Leipzig,1,1
+2016/17,29,1,Dortmund,E. Frankfurt,3,1
+2016/17,29,2,Mainz,Hertha,1,0
+2016/17,29,3,Wolfsburg,Ingolstadt,3,0
+2016/17,29,4,Augsburg,Köln,2,1
+2016/17,29,5,Hoffenheim,Gladbach,5,3
+2016/17,29,6,Leipzig,Freiburg,4,0
+2016/17,29,7,Leverkusen,Bayern,0,0
+2016/17,29,8,Bremen,HSV,2,1
+2016/17,29,9,Darmstadt,Schalke,2,1
+2016/17,28,1,E. Frankfurt,Bremen,2,2
+2016/17,28,2,Schalke,Wolfsburg,4,1
+2016/17,28,3,Köln,Gladbach,2,3
+2016/17,28,4,HSV,Hoffenheim,2,1
+2016/17,28,5,Freiburg,Mainz,1,0
+2016/17,28,6,Leipzig,Leverkusen,1,0
+2016/17,28,7,Bayern,Dortmund,4,1
+2016/17,28,8,Hertha,Augsburg,2,0
+2016/17,28,9,Ingolstadt,Darmstadt,3,2
+2016/17,27,1,Dortmund,HSV,3,0
+2016/17,27,2,Köln,E. Frankfurt,1,0
+2016/17,27,3,Bremen,Schalke,3,0
+2016/17,27,4,Hoffenheim,Bayern,1,0
+2016/17,27,5,Gladbach,Hertha,1,0
+2016/17,27,6,Mainz,Leipzig,2,3
+2016/17,27,7,Wolfsburg,Freiburg,0,1
+2016/17,27,8,Augsburg,Ingolstadt,2,3
+2016/17,27,9,Darmstadt,Leverkusen,0,2
+2016/17,26,1,Hertha,Hoffenheim,1,3
+2016/17,26,2,Bayern,Augsburg,6,0
+2016/17,26,3,Schalke,Dortmund,1,1
+2016/17,26,4,HSV,Köln,2,1
+2016/17,26,5,Freiburg,Bremen,2,5
+2016/17,26,6,Leipzig,Darmstadt,4,0
+2016/17,26,7,E. Frankfurt,Gladbach,0,0
+2016/17,26,8,Ingolstadt,Mainz,2,1
+2016/17,26,9,Leverkusen,Wolfsburg,3,3
+2016/17,25,1,Dortmund,Ingolstadt,1,0
+2016/17,25,2,Wolfsburg,Darmstadt,1,0
+2016/17,25,3,Köln,Hertha,4,2
+2016/17,25,4,Augsburg,Freiburg,1,1
+2016/17,25,5,Bremen,Leipzig,3,0
+2016/17,25,6,Hoffenheim,Leverkusen,1,0
+2016/17,25,7,E. Frankfurt,HSV,0,0
+2016/17,25,8,Mainz,Schalke,0,1
+2016/17,25,9,Gladbach,Bayern,0,1
+2016/17,24,1,Leverkusen,Bremen,1,1
+2016/17,24,2,Bayern,E. Frankfurt,3,0
+2016/17,24,3,Hertha,Dortmund,2,1
+2016/17,24,4,Darmstadt,Mainz,2,1
+2016/17,24,5,Freiburg,Hoffenheim,1,1
+2016/17,24,6,Leipzig,Wolfsburg,0,1
+2016/17,24,7,Ingolstadt,Köln,2,2
+2016/17,24,8,Schalke,Augsburg,3,0
+2016/17,24,9,HSV,Gladbach,2,1
+2016/17,23,1,Augsburg,Leipzig,2,2
+2016/17,23,2,Dortmund,Leverkusen,6,2
+2016/17,23,3,Mainz,Wolfsburg,1,1
+2016/17,23,4,Köln,Bayern,0,3
+2016/17,23,5,Bremen,Darmstadt,2,0
+2016/17,23,6,Hoffenheim,Ingolstadt,5,2
+2016/17,23,7,Gladbach,Schalke,4,2
+2016/17,23,8,E. Frankfurt,Freiburg,1,2
+2016/17,23,9,HSV,Hertha,1,0
+2016/17,22,1,Wolfsburg,Bremen,1,2
+2016/17,22,2,Bayern,HSV,8,0
+2016/17,22,3,Leverkusen,Mainz,0,2
+2016/17,22,4,Darmstadt,Augsburg,1,2
+2016/17,22,5,Freiburg,Dortmund,0,3
+2016/17,22,6,Leipzig,Köln,3,1
+2016/17,22,7,Hertha,E. Frankfurt,2,0
+2016/17,22,8,Ingolstadt,Gladbach,0,2
+2016/17,22,9,Schalke,Hoffenheim,1,1
+2016/17,21,1,Augsburg,Leverkusen,1,3
+2016/17,21,2,Dortmund,Wolfsburg,3,0
+2016/17,21,3,Mainz,Bremen,0,2
+2016/17,21,4,Hertha,Bayern,1,1
+2016/17,21,5,Hoffenheim,Darmstadt,2,0
+2016/17,21,6,E. Frankfurt,Ingolstadt,0,2
+2016/17,21,7,HSV,Freiburg,2,2
+2016/17,21,8,Gladbach,Leipzig,1,2
+2016/17,21,9,Köln,Schalke,1,1
+2016/17,20,1,Mainz,Augsburg,2,0
+2016/17,20,2,Leverkusen,E. Frankfurt,3,0
+2016/17,20,3,Ingolstadt,Bayern,0,2
+2016/17,20,4,Bremen,Gladbach,0,1
+2016/17,20,5,Darmstadt,Dortmund,2,1
+2016/17,20,6,Leipzig,HSV,0,3
+2016/17,20,7,Schalke,Hertha,2,0
+2016/17,20,8,Wolfsburg,Hoffenheim,2,1
+2016/17,20,9,Freiburg,Köln,2,1
+2016/17,19,1,HSV,Leverkusen,1,0
+2016/17,19,2,Bayern,Schalke,1,1
+2016/17,19,3,Gladbach,Freiburg,3,0
+2016/17,19,4,Hertha,Ingolstadt,1,0
+2016/17,19,5,Köln,Wolfsburg,1,0
+2016/17,19,6,Hoffenheim,Mainz,4,0
+2016/17,19,7,Dortmund,Leipzig,1,0
+2016/17,19,8,Augsburg,Bremen,3,2
+2016/17,19,9,E. Frankfurt,Darmstadt,2,0
+2016/17,18,1,Schalke,E. Frankfurt,0,1
+2016/17,18,2,Wolfsburg,Augsburg,1,2
+2016/17,18,3,Ingolstadt,HSV,3,1
+2016/17,18,4,Bremen,Bayern,1,2
+2016/17,18,5,Darmstadt,Köln,1,6
+2016/17,18,6,Leipzig,Hoffenheim,2,1
+2016/17,18,7,Leverkusen,Gladbach,2,3
+2016/17,18,8,Freiburg,Hertha,2,1
+2016/17,18,9,Mainz,Dortmund,1,1
+2016/17,17,1,Freiburg,Bayern,1,2
+2016/17,17,2,Schalke,Ingolstadt,1,0
+2016/17,17,3,Wolfsburg,HSV,1,0
+2016/17,17,4,Augsburg,Hoffenheim,0,2
+2016/17,17,5,Bremen,Dortmund,1,2
+2016/17,17,6,Darmstadt,Gladbach,0,0
+2016/17,17,7,Leipzig,E. Frankfurt,3,0
+2016/17,17,8,Leverkusen,Hertha,3,1
+2016/17,17,9,Mainz,Köln,0,0
+2016/17,16,1,Dortmund,Augsburg,1,1
+2016/17,16,2,Gladbach,Wolfsburg,1,2
+2016/17,16,3,HSV,Schalke,2,1
+2016/17,16,4,E. Frankfurt,Mainz,3,0
+2016/17,16,5,Bayern,Leipzig,3,0
+2016/17,16,6,Hertha,Darmstadt,2,0
+2016/17,16,7,Köln,Leverkusen,1,1
+2016/17,16,8,Ingolstadt,Freiburg,1,2
+2016/17,16,9,Hoffenheim,Bremen,1,1
+2016/17,15,1,Hoffenheim,Dortmund,2,2
+2016/17,15,2,Schalke,Freiburg,1,1
+2016/17,15,3,Mainz,HSV,3,1
+2016/17,15,4,Augsburg,Gladbach,1,0
+2016/17,15,5,Bremen,Köln,1,1
+2016/17,15,6,Leipzig,Hertha,2,0
+2016/17,15,7,Wolfsburg,E. Frankfurt,1,0
+2016/17,15,8,Darmstadt,Bayern,0,1
+2016/17,15,9,Leverkusen,Ingolstadt,1,2
+2016/17,14,1,E. Frankfurt,Hoffenheim,0,0
+2016/17,14,2,Bayern,Wolfsburg,5,0
+2016/17,14,3,Köln,Dortmund,1,1
+2016/17,14,4,HSV,Augsburg,1,0
+2016/17,14,5,Ingolstadt,Leipzig,1,0
+2016/17,14,6,Freiburg,Darmstadt,1,0
+2016/17,14,7,Hertha,Bremen,0,1
+2016/17,14,8,Gladbach,Mainz,1,0
+2016/17,14,9,Schalke,Leverkusen,0,1
+2016/17,13,1,Mainz,Bayern,1,3
+2016/17,13,2,Dortmund,Gladbach,4,1
+2016/17,13,3,Leverkusen,Freiburg,1,1
+2016/17,13,4,Wolfsburg,Hertha,2,3
+2016/17,13,5,Bremen,Ingolstadt,2,1
+2016/17,13,6,Hoffenheim,Köln,4,0
+2016/17,13,7,Leipzig,Schalke,2,1
+2016/17,13,8,Darmstadt,HSV,0,2
+2016/17,13,9,Augsburg,E. Frankfurt,1,1
+2016/17,12,1,Freiburg,Leipzig,1,4
+2016/17,12,2,Gladbach,Hoffenheim,1,1
+2016/17,12,3,Köln,Augsburg,0,0
+2016/17,12,4,HSV,Bremen,2,2
+2016/17,12,5,Ingolstadt,Wolfsburg,1,1
+2016/17,12,6,E. Frankfurt,Dortmund,2,1
+2016/17,12,7,Bayern,Leverkusen,2,1
+2016/17,12,8,Schalke,Darmstadt,3,1
+2016/17,12,9,Hertha,Mainz,2,1
+2016/17,11,1,Leverkusen,Leipzig,2,3
+2016/17,11,2,Gladbach,Köln,1,2
+2016/17,11,3,Mainz,Freiburg,4,2
+2016/17,11,4,Wolfsburg,Schalke,0,1
+2016/17,11,5,Augsburg,Hertha,0,0
+2016/17,11,6,Darmstadt,Ingolstadt,0,1
+2016/17,11,7,Dortmund,Bayern,1,0
+2016/17,11,8,Hoffenheim,HSV,2,2
+2016/17,11,9,Bremen,E. Frankfurt,1,2
+2016/17,10,1,Hertha,Gladbach,3,0
+2016/17,10,2,Bayern,Hoffenheim,1,1
+2016/17,10,3,Leverkusen,Darmstadt,3,2
+2016/17,10,4,HSV,Dortmund,2,5
+2016/17,10,5,Ingolstadt,Augsburg,0,2
+2016/17,10,6,Freiburg,Wolfsburg,0,3
+2016/17,10,7,E. Frankfurt,Köln,1,0
+2016/17,10,8,Leipzig,Mainz,3,1
+2016/17,10,9,Schalke,Bremen,3,1
+2016/17,9,1,Gladbach,E. Frankfurt,0,0
+2016/17,9,2,Mainz,Ingolstadt,2,0
+2016/17,9,3,Wolfsburg,Leverkusen,1,2
+2016/17,9,4,Augsburg,Bayern,1,3
+2016/17,9,5,Bremen,Freiburg,1,3
+2016/17,9,6,Darmstadt,Leipzig,0,2
+2016/17,9,7,Dortmund,Schalke,0,0
+2016/17,9,8,Hoffenheim,Hertha,1,0
+2016/17,9,9,Köln,HSV,3,0
+2016/17,8,1,HSV,E. Frankfurt,0,3
+2016/17,8,2,Leverkusen,Hoffenheim,0,3
+2016/17,8,3,Hertha,Köln,2,1
+2016/17,8,4,Ingolstadt,Dortmund,3,3
+2016/17,8,5,Darmstadt,Wolfsburg,3,1
+2016/17,8,6,Freiburg,Augsburg,2,1
+2016/17,8,7,Bayern,Gladbach,2,0
+2016/17,8,8,Leipzig,Bremen,3,1
+2016/17,8,9,Schalke,Mainz,3,0
+2016/17,7,1,Dortmund,Hertha,1,1
+2016/17,7,2,Gladbach,HSV,0,0
+2016/17,7,3,Köln,Ingolstadt,2,1
+2016/17,7,4,Augsburg,Schalke,1,1
+2016/17,7,5,Hoffenheim,Freiburg,2,1
+2016/17,7,6,E. Frankfurt,Bayern,2,2
+2016/17,7,7,Bremen,Leverkusen,2,1
+2016/17,7,8,Mainz,Darmstadt,2,1
+2016/17,7,9,Wolfsburg,Leipzig,0,1
+2016/17,6,1,Leipzig,Augsburg,2,1
+2016/17,6,2,Bayern,Köln,1,1
+2016/17,6,3,Hertha,HSV,2,0
+2016/17,6,4,Ingolstadt,Hoffenheim,1,2
+2016/17,6,5,Darmstadt,Bremen,2,2
+2016/17,6,6,Freiburg,E. Frankfurt,1,0
+2016/17,6,7,Leverkusen,Dortmund,2,0
+2016/17,6,8,Wolfsburg,Mainz,0,0
+2016/17,6,9,Schalke,Gladbach,4,0
+2016/17,5,1,Dortmund,Freiburg,3,1
+2016/17,5,2,Gladbach,Ingolstadt,2,0
+2016/17,5,3,Mainz,Leverkusen,2,3
+2016/17,5,4,HSV,Bayern,0,1
+2016/17,5,5,Augsburg,Darmstadt,1,0
+2016/17,5,6,E. Frankfurt,Hertha,3,3
+2016/17,5,7,Bremen,Wolfsburg,2,1
+2016/17,5,8,Hoffenheim,Schalke,2,1
+2016/17,5,9,Köln,Leipzig,1,1
+2016/17,4,1,Wolfsburg,Dortmund,1,5
+2016/17,4,2,Ingolstadt,E. Frankfurt,0,2
+2016/17,4,3,Darmstadt,Hoffenheim,1,1
+2016/17,4,4,Freiburg,HSV,1,0
+2016/17,4,5,Bayern,Hertha,3,0
+2016/17,4,6,Leverkusen,Augsburg,0,0
+2016/17,4,7,Schalke,Köln,1,3
+2016/17,4,8,Bremen,Mainz,1,2
+2016/17,4,9,Leipzig,Gladbach,1,1
+2016/17,3,1,Köln,Freiburg,3,0
+2016/17,3,2,Bayern,Ingolstadt,3,1
+2016/17,3,3,Dortmund,Darmstadt,6,0
+2016/17,3,4,HSV,Leipzig,0,4
+2016/17,3,5,Hoffenheim,Wolfsburg,0,0
+2016/17,3,6,E. Frankfurt,Leverkusen,2,1
+2016/17,3,7,Gladbach,Bremen,4,1
+2016/17,3,8,Augsburg,Mainz,1,3
+2016/17,3,9,Hertha,Schalke,2,0
+2016/17,2,1,Schalke,Bayern,0,2
+2016/17,2,2,Leverkusen,HSV,3,1
+2016/17,2,3,Wolfsburg,Köln,0,0
+2016/17,2,4,Ingolstadt,Hertha,0,2
+2016/17,2,5,Darmstadt,E. Frankfurt,1,0
+2016/17,2,6,Freiburg,Gladbach,3,1
+2016/17,2,7,Leipzig,Dortmund,1,0
+2016/17,2,8,Bremen,Augsburg,1,2
+2016/17,2,9,Mainz,Hoffenheim,4,4
+2016/17,1,1,Bayern,Bremen,6,0
+2016/17,1,2,E. Frankfurt,Schalke,1,0
+2016/17,1,3,Augsburg,Wolfsburg,0,2
+2016/17,1,4,HSV,Ingolstadt,1,1
+2016/17,1,5,Köln,Darmstadt,2,0
+2016/17,1,6,Dortmund,Mainz,2,1
+2016/17,1,7,Gladbach,Leverkusen,2,1
+2016/17,1,8,Hertha,Freiburg,2,1
+2016/17,1,9,Hoffenheim,Leipzig,2,2
+2015/16,34,1,Bayern,Hannover,3,1
+2015/16,34,2,Dortmund,Köln,2,2
+2015/16,34,3,Leverkusen,Ingolstadt,3,2
+2015/16,34,4,Wolfsburg,Stuttgart,3,1
+2015/16,34,5,Augsburg,HSV,1,3
+2015/16,34,6,Bremen,E. Frankfurt,1,0
+2015/16,34,7,Hoffenheim,Schalke,1,4
+2015/16,34,8,Mainz,Hertha,0,0
+2015/16,34,9,Darmstadt,Gladbach,0,2
+2015/16,33,1,Schalke,Augsburg,1,1
+2015/16,33,2,Gladbach,Leverkusen,2,1
+2015/16,33,3,HSV,Wolfsburg,0,1
+2015/16,33,4,Stuttgart,Mainz,1,3
+2015/16,33,5,E. Frankfurt,Dortmund,1,0
+2015/16,33,6,Köln,Bremen,0,0
+2015/16,33,7,Hannover,Hoffenheim,1,0
+2015/16,33,8,Hertha,Darmstadt,1,2
+2015/16,33,9,Ingolstadt,Bayern,1,2
+2015/16,32,1,Augsburg,Köln,0,0
+2015/16,32,2,Bayern,Gladbach,1,1
+2015/16,32,3,Dortmund,Wolfsburg,5,1
+2015/16,32,4,Hannover,Schalke,1,3
+2015/16,32,5,Hoffenheim,Ingolstadt,2,1
+2015/16,32,6,Mainz,HSV,0,0
+2015/16,32,7,Darmstadt,E. Frankfurt,1,2
+2015/16,32,8,Leverkusen,Hertha,2,1
+2015/16,32,9,Bremen,Stuttgart,6,2
+2015/16,31,1,HSV,Bremen,2,1
+2015/16,31,2,Wolfsburg,Augsburg,0,2
+2015/16,31,3,Stuttgart,Dortmund,0,3
+2015/16,31,4,Köln,Darmstadt,4,1
+2015/16,31,5,Hertha,Bayern,0,2
+2015/16,31,6,Ingolstadt,Hannover,2,2
+2015/16,31,7,Schalke,Leverkusen,2,3
+2015/16,31,8,Gladbach,Hoffenheim,3,1
+2015/16,31,9,E. Frankfurt,Mainz,2,1
+2015/16,30,1,Hannover,Gladbach,2,0
+2015/16,30,2,Leverkusen,E. Frankfurt,3,0
+2015/16,30,3,Augsburg,Stuttgart,1,0
+2015/16,30,4,Bremen,Wolfsburg,3,2
+2015/16,30,5,Hoffenheim,Hertha,2,1
+2015/16,30,6,Darmstadt,Ingolstadt,2,0
+2015/16,30,7,Bayern,Schalke,3,0
+2015/16,30,8,Dortmund,HSV,3,0
+2015/16,30,9,Mainz,Köln,2,3
+2015/16,29,1,Hertha,Hannover,2,2
+2015/16,29,2,HSV,Darmstadt,1,2
+2015/16,29,3,Stuttgart,Bayern,1,3
+2015/16,29,4,Bremen,Augsburg,1,2
+2015/16,29,5,E. Frankfurt,Hoffenheim,0,2
+2015/16,29,6,Ingolstadt,Gladbach,1,0
+2015/16,29,7,Wolfsburg,Mainz,1,1
+2015/16,29,8,Schalke,Dortmund,2,2
+2015/16,29,9,Köln,Leverkusen,0,2
+2015/16,28,1,Leverkusen,Wolfsburg,3,0
+2015/16,28,2,Bayern,E. Frankfurt,1,0
+2015/16,28,3,Hannover,HSV,0,3
+2015/16,28,4,Mainz,Augsburg,4,2
+2015/16,28,5,Ingolstadt,Schalke,3,0
+2015/16,28,6,Darmstadt,Stuttgart,2,2
+2015/16,28,7,Dortmund,Bremen,3,2
+2015/16,28,8,Gladbach,Hertha,5,0
+2015/16,28,9,Hoffenheim,Köln,1,1
+2015/16,27,1,Schalke,Gladbach,2,1
+2015/16,27,2,Wolfsburg,Darmstadt,1,1
+2015/16,27,3,HSV,Hoffenheim,1,3
+2015/16,27,4,Bremen,Mainz,1,1
+2015/16,27,5,Köln,Bayern,0,1
+2015/16,27,6,Hertha,Ingolstadt,2,1
+2015/16,27,7,E. Frankfurt,Hannover,1,0
+2015/16,27,8,Stuttgart,Leverkusen,0,2
+2015/16,27,9,Augsburg,Dortmund,1,3
+2015/16,26,1,Hertha,Schalke,2,0
+2015/16,26,2,Gladbach,E. Frankfurt,3,0
+2015/16,26,3,Hannover,Köln,0,2
+2015/16,26,4,Hoffenheim,Wolfsburg,1,0
+2015/16,26,5,Ingolstadt,Stuttgart,3,3
+2015/16,26,6,Darmstadt,Augsburg,2,2
+2015/16,26,7,Bayern,Bremen,5,0
+2015/16,26,8,Leverkusen,HSV,1,0
+2015/16,26,9,Dortmund,Mainz,2,0
+2015/16,25,1,Wolfsburg,Gladbach,2,1
+2015/16,25,2,Stuttgart,Hoffenheim,5,1
+2015/16,25,3,Augsburg,Leverkusen,3,3
+2015/16,25,4,Bremen,Hannover,4,1
+2015/16,25,5,E. Frankfurt,Ingolstadt,1,1
+2015/16,25,6,Köln,Schalke,1,3
+2015/16,25,7,Dortmund,Bayern,0,0
+2015/16,25,8,Mainz,Darmstadt,0,0
+2015/16,25,9,HSV,Hertha,2,0
+2015/16,24,1,Hannover,Wolfsburg,0,4
+2015/16,24,2,Ingolstadt,Köln,1,1
+2015/16,24,3,Bayern,Mainz,1,2
+2015/16,24,4,Schalke,HSV,3,2
+2015/16,24,5,Leverkusen,Bremen,1,4
+2015/16,24,6,Gladbach,Stuttgart,4,0
+2015/16,24,7,Hertha,E. Frankfurt,2,0
+2015/16,24,8,Hoffenheim,Augsburg,2,1
+2015/16,24,9,Darmstadt,Dortmund,0,2
+2015/16,23,1,Köln,Hertha,0,1
+2015/16,23,2,Wolfsburg,Bayern,0,2
+2015/16,23,3,HSV,Ingolstadt,1,1
+2015/16,23,4,Stuttgart,Hannover,1,2
+2015/16,23,5,Bremen,Darmstadt,2,2
+2015/16,23,6,Augsburg,Gladbach,2,2
+2015/16,23,7,Dortmund,Hoffenheim,3,1
+2015/16,23,8,Mainz,Leverkusen,3,1
+2015/16,23,9,E. Frankfurt,Schalke,0,0
+2015/16,22,1,E. Frankfurt,HSV,0,0
+2015/16,22,2,Bayern,Darmstadt,3,1
+2015/16,22,3,Gladbach,Köln,1,0
+2015/16,22,4,Hertha,Wolfsburg,1,1
+2015/16,22,5,Hoffenheim,Mainz,3,2
+2015/16,22,6,Ingolstadt,Bremen,2,0
+2015/16,22,7,Leverkusen,Dortmund,0,1
+2015/16,22,8,Schalke,Stuttgart,1,1
+2015/16,22,9,Hannover,Augsburg,0,1
+2015/16,21,1,Mainz,Schalke,2,1
+2015/16,21,2,Dortmund,Hannover,1,0
+2015/16,21,3,Wolfsburg,Ingolstadt,2,0
+2015/16,21,4,Stuttgart,Hertha,2,0
+2015/16,21,5,Bremen,Hoffenheim,1,1
+2015/16,21,6,Darmstadt,Leverkusen,1,2
+2015/16,21,7,Köln,E. Frankfurt,3,1
+2015/16,21,8,HSV,Gladbach,3,2
+2015/16,21,9,Augsburg,Bayern,1,3
+2015/16,20,1,Gladbach,Bremen,5,1
+2015/16,20,2,Schalke,Wolfsburg,3,0
+2015/16,20,3,E. Frankfurt,Stuttgart,2,4
+2015/16,20,4,Hannover,Mainz,0,1
+2015/16,20,5,Hertha,Dortmund,0,0
+2015/16,20,6,Ingolstadt,Augsburg,2,1
+2015/16,20,7,Leverkusen,Bayern,0,0
+2015/16,20,8,HSV,Köln,1,1
+2015/16,20,9,Hoffenheim,Darmstadt,0,2
+2015/16,19,1,Mainz,Gladbach,1,0
+2015/16,19,2,Dortmund,Ingolstadt,2,0
+2015/16,19,3,Leverkusen,Hannover,3,0
+2015/16,19,4,Augsburg,E. Frankfurt,0,0
+2015/16,19,5,Bremen,Hertha,3,3
+2015/16,19,6,Darmstadt,Schalke,0,2
+2015/16,19,7,Stuttgart,HSV,2,1
+2015/16,19,8,Wolfsburg,Köln,1,1
+2015/16,19,9,Bayern,Hoffenheim,2,0
+2015/16,18,1,HSV,Bayern,1,2
+2015/16,18,2,Köln,Stuttgart,1,3
+2015/16,18,3,Hannover,Darmstadt,1,2
+2015/16,18,4,Hertha,Augsburg,0,0
+2015/16,18,5,Hoffenheim,Leverkusen,1,1
+2015/16,18,6,Ingolstadt,Mainz,1,0
+2015/16,18,7,Gladbach,Dortmund,1,3
+2015/16,18,8,E. Frankfurt,Wolfsburg,3,2
+2015/16,18,9,Schalke,Bremen,1,3
+2015/16,17,1,Schalke,Hoffenheim,1,0
+2015/16,17,2,HSV,Augsburg,0,1
+2015/16,17,3,E. Frankfurt,Bremen,2,1
+2015/16,17,4,Köln,Dortmund,2,1
+2015/16,17,5,Hannover,Bayern,0,1
+2015/16,17,6,Ingolstadt,Leverkusen,0,1
+2015/16,17,7,Stuttgart,Wolfsburg,3,1
+2015/16,17,8,Hertha,Mainz,2,0
+2015/16,17,9,Gladbach,Darmstadt,3,2
+2015/16,16,1,Mainz,Stuttgart,0,0
+2015/16,16,2,Bayern,Ingolstadt,2,0
+2015/16,16,3,Wolfsburg,HSV,1,1
+2015/16,16,4,Bremen,Köln,1,1
+2015/16,16,5,Hoffenheim,Hannover,1,0
+2015/16,16,6,Darmstadt,Hertha,0,4
+2015/16,16,7,Leverkusen,Gladbach,5,0
+2015/16,16,8,Augsburg,Schalke,2,1
+2015/16,16,9,Dortmund,E. Frankfurt,4,1
+2015/16,15,1,Schalke,Hannover,3,1
+2015/16,15,2,Gladbach,Bayern,3,1
+2015/16,15,3,HSV,Mainz,1,3
+2015/16,15,4,Köln,Augsburg,0,1
+2015/16,15,5,Hertha,Leverkusen,2,1
+2015/16,15,6,Ingolstadt,Hoffenheim,1,1
+2015/16,15,7,Wolfsburg,Dortmund,1,2
+2015/16,15,8,Stuttgart,Bremen,1,1
+2015/16,15,9,E. Frankfurt,Darmstadt,0,1
+2015/16,14,1,Darmstadt,Köln,0,0
+2015/16,14,2,Bayern,Hertha,2,0
+2015/16,14,3,Bremen,HSV,1,3
+2015/16,14,4,Hannover,Ingolstadt,4,0
+2015/16,14,5,Hoffenheim,Gladbach,3,3
+2015/16,14,6,Mainz,E. Frankfurt,2,1
+2015/16,14,7,Dortmund,Stuttgart,4,1
+2015/16,14,8,Leverkusen,Schalke,1,1
+2015/16,14,9,Augsburg,Wolfsburg,0,0
+2015/16,13,1,HSV,Dortmund,3,1
+2015/16,13,2,Gladbach,Hannover,2,1
+2015/16,13,3,Wolfsburg,Bremen,6,0
+2015/16,13,4,E. Frankfurt,Leverkusen,1,3
+2015/16,13,5,Köln,Mainz,0,0
+2015/16,13,6,Stuttgart,Augsburg,0,4
+2015/16,13,7,Schalke,Bayern,1,3
+2015/16,13,8,Hertha,Hoffenheim,1,0
+2015/16,13,9,Ingolstadt,Darmstadt,3,1
+2015/16,12,1,Hannover,Hertha,1,3
+2015/16,12,2,Bayern,Stuttgart,4,0
+2015/16,12,3,Leverkusen,Köln,1,2
+2015/16,12,4,Gladbach,Ingolstadt,0,0
+2015/16,12,5,Hoffenheim,E. Frankfurt,0,0
+2015/16,12,6,Mainz,Wolfsburg,2,0
+2015/16,12,7,Darmstadt,HSV,1,1
+2015/16,12,8,Dortmund,Schalke,3,2
+2015/16,12,9,Augsburg,Bremen,1,2
+2015/16,11,1,E. Frankfurt,Bayern,0,0
+2015/16,11,2,Schalke,Ingolstadt,1,1
+2015/16,11,3,Augsburg,Mainz,3,3
+2015/16,11,4,Bremen,Dortmund,1,3
+2015/16,11,5,Köln,Hoffenheim,0,0
+2015/16,11,6,Hertha,Gladbach,1,4
+2015/16,11,7,Wolfsburg,Leverkusen,2,1
+2015/16,11,8,Stuttgart,Darmstadt,2,0
+2015/16,11,9,HSV,Hannover,1,2
+2015/16,10,1,Hoffenheim,HSV,0,1
+2015/16,10,2,Bayern,Köln,4,0
+2015/16,10,3,Leverkusen,Stuttgart,4,3
+2015/16,10,4,Hannover,E. Frankfurt,1,2
+2015/16,10,5,Mainz,Bremen,1,3
+2015/16,10,6,Darmstadt,Wolfsburg,0,1
+2015/16,10,7,Ingolstadt,Hertha,0,1
+2015/16,10,8,Dortmund,Augsburg,5,1
+2015/16,10,9,Gladbach,Schalke,3,1
+2015/16,9,1,Mainz,Dortmund,0,2
+2015/16,9,2,Schalke,Hertha,2,1
+2015/16,9,3,Wolfsburg,Hoffenheim,4,2
+2015/16,9,4,HSV,Leverkusen,0,0
+2015/16,9,5,Augsburg,Darmstadt,0,2
+2015/16,9,6,Bremen,Bayern,0,1
+2015/16,9,7,E. Frankfurt,Gladbach,1,5
+2015/16,9,8,Köln,Hannover,0,1
+2015/16,9,9,Stuttgart,Ingolstadt,1,0
+2015/16,8,1,Darmstadt,Mainz,2,3
+2015/16,8,2,Gladbach,Wolfsburg,2,0
+2015/16,8,3,Hannover,Bremen,1,0
+2015/16,8,4,Hertha,HSV,3,0
+2015/16,8,5,Hoffenheim,Stuttgart,2,2
+2015/16,8,6,Ingolstadt,E. Frankfurt,2,0
+2015/16,8,7,Schalke,Köln,0,3
+2015/16,8,8,Bayern,Dortmund,5,1
+2015/16,8,9,Leverkusen,Augsburg,1,1
+2015/16,7,1,Köln,Ingolstadt,1,1
+2015/16,7,2,Wolfsburg,Hannover,1,1
+2015/16,7,3,Stuttgart,Gladbach,1,3
+2015/16,7,4,Augsburg,Hoffenheim,1,3
+2015/16,7,5,Bremen,Leverkusen,0,3
+2015/16,7,6,Mainz,Bayern,0,3
+2015/16,7,7,HSV,Schalke,0,1
+2015/16,7,8,E. Frankfurt,Hertha,1,1
+2015/16,7,9,Dortmund,Darmstadt,2,2
+2015/16,6,1,Bayern,Wolfsburg,5,1
+2015/16,6,2,Hertha,Köln,2,0
+2015/16,6,3,Ingolstadt,HSV,0,1
+2015/16,6,4,Darmstadt,Bremen,2,1
+2015/16,6,5,Schalke,E. Frankfurt,2,0
+2015/16,6,6,Leverkusen,Mainz,1,0
+2015/16,6,7,Gladbach,Augsburg,4,2
+2015/16,6,8,Hannover,Stuttgart,1,3
+2015/16,6,9,Hoffenheim,Dortmund,1,1
+2015/16,5,1,Mainz,Hoffenheim,3,1
+2015/16,5,2,Wolfsburg,Hertha,2,0
+2015/16,5,3,HSV,E. Frankfurt,0,0
+2015/16,5,4,Bremen,Ingolstadt,0,1
+2015/16,5,5,Köln,Gladbach,1,0
+2015/16,5,6,Darmstadt,Bayern,0,3
+2015/16,5,7,Stuttgart,Schalke,0,1
+2015/16,5,8,Dortmund,Leverkusen,3,0
+2015/16,5,9,Augsburg,Hannover,2,0
+2015/16,4,1,Gladbach,HSV,0,3
+2015/16,4,2,Bayern,Augsburg,2,1
+2015/16,4,3,Leverkusen,Darmstadt,0,1
+2015/16,4,4,Hannover,Dortmund,2,4
+2015/16,4,5,Hertha,Stuttgart,2,1
+2015/16,4,6,Ingolstadt,Wolfsburg,0,0
+2015/16,4,7,E. Frankfurt,Köln,6,2
+2015/16,4,8,Hoffenheim,Bremen,1,3
+2015/16,4,9,Schalke,Mainz,2,1
+2015/16,3,1,Wolfsburg,Schalke,3,0
+2015/16,3,2,Stuttgart,E. Frankfurt,1,4
+2015/16,3,3,Augsburg,Ingolstadt,0,1
+2015/16,3,4,Köln,HSV,2,1
+2015/16,3,5,Mainz,Hannover,3,0
+2015/16,3,6,Darmstadt,Hoffenheim,0,0
+2015/16,3,7,Bayern,Leverkusen,3,0
+2015/16,3,8,Dortmund,Hertha,3,1
+2015/16,3,9,Bremen,Gladbach,2,1
+2015/16,2,1,Hertha,Bremen,1,1
+2015/16,2,2,Schalke,Darmstadt,1,1
+2015/16,2,3,E. Frankfurt,Augsburg,1,1
+2015/16,2,4,Köln,Wolfsburg,1,1
+2015/16,2,5,Hannover,Leverkusen,0,1
+2015/16,2,6,Hoffenheim,Bayern,1,2
+2015/16,2,7,HSV,Stuttgart,3,2
+2015/16,2,8,Ingolstadt,Dortmund,0,4
+2015/16,2,9,Gladbach,Mainz,1,2
+2015/16,1,1,Bayern,HSV,5,0
+2015/16,1,2,Leverkusen,Hoffenheim,2,1
+2015/16,1,3,Augsburg,Hertha,0,1
+2015/16,1,4,Bremen,Schalke,0,3
+2015/16,1,5,Mainz,Ingolstadt,0,1
+2015/16,1,6,Darmstadt,Hannover,2,2
+2015/16,1,7,Dortmund,Gladbach,4,0
+2015/16,1,8,Wolfsburg,E. Frankfurt,2,1
+2015/16,1,9,Stuttgart,Köln,1,3
+2014/15,34,1,Bayern,Mainz,2,0
+2014/15,34,2,Dortmund,Bremen,3,2
+2014/15,34,3,Gladbach,Augsburg,1,3
+2014/15,34,4,Hoffenheim,Hertha,2,1
+2014/15,34,5,Hannover,Freiburg,2,1
+2014/15,34,6,E. Frankfurt,Leverkusen,2,1
+2014/15,34,7,HSV,Schalke,2,0
+2014/15,34,8,Köln,Wolfsburg,2,2
+2014/15,34,9,Paderborn,Stuttgart,1,2
+2014/15,33,1,Schalke,Paderborn,1,0
+2014/15,33,2,Leverkusen,Hoffenheim,2,0
+2014/15,33,3,Wolfsburg,Dortmund,2,1
+2014/15,33,4,Mainz,Köln,2,0
+2014/15,33,5,Augsburg,Hannover,1,2
+2014/15,33,6,Hertha,E. Frankfurt,0,0
+2014/15,33,7,Bremen,Gladbach,0,2
+2014/15,33,8,Freiburg,Bayern,2,1
+2014/15,33,9,Stuttgart,HSV,2,1
+2014/15,32,1,HSV,Freiburg,1,1
+2014/15,32,2,Bayern,Augsburg,0,1
+2014/15,32,3,Dortmund,Hertha,2,0
+2014/15,32,4,Gladbach,Leverkusen,3,0
+2014/15,32,5,Hannover,Bremen,1,1
+2014/15,32,6,E. Frankfurt,Hoffenheim,3,1
+2014/15,32,7,Stuttgart,Mainz,2,0
+2014/15,32,8,Paderborn,Wolfsburg,1,3
+2014/15,32,9,Köln,Schalke,2,0
+2014/15,31,1,Schalke,Stuttgart,3,2
+2014/15,31,2,Wolfsburg,Hannover,2,2
+2014/15,31,3,Augsburg,Köln,0,0
+2014/15,31,4,Hoffenheim,Dortmund,1,1
+2014/15,31,5,Bremen,E. Frankfurt,1,0
+2014/15,31,6,Freiburg,Paderborn,1,2
+2014/15,31,7,Leverkusen,Bayern,2,0
+2014/15,31,8,Mainz,HSV,1,2
+2014/15,31,9,Hertha,Gladbach,1,2
+2014/15,30,1,Mainz,Schalke,2,0
+2014/15,30,2,Dortmund,E. Frankfurt,2,0
+2014/15,30,3,Hannover,Hoffenheim,1,2
+2014/15,30,4,Stuttgart,Freiburg,2,2
+2014/15,30,5,HSV,Augsburg,3,2
+2014/15,30,6,Köln,Leverkusen,1,1
+2014/15,30,7,Bayern,Hertha,1,0
+2014/15,30,8,Paderborn,Bremen,2,2
+2014/15,30,9,Gladbach,Wolfsburg,1,0
+2014/15,29,1,E. Frankfurt,Gladbach,0,0
+2014/15,29,2,Dortmund,Paderborn,3,0
+2014/15,29,3,Leverkusen,Hannover,4,0
+2014/15,29,4,Hoffenheim,Bayern,0,2
+2014/15,29,5,Hertha,Köln,0,0
+2014/15,29,6,Freiburg,Mainz,2,3
+2014/15,29,7,Augsburg,Stuttgart,2,1
+2014/15,29,8,Bremen,HSV,1,0
+2014/15,29,9,Wolfsburg,Schalke,1,1
+2014/15,28,1,Hannover,Hertha,1,1
+2014/15,28,2,Bayern,E. Frankfurt,3,0
+2014/15,28,3,Schalke,Freiburg,0,0
+2014/15,28,4,Gladbach,Dortmund,3,1
+2014/15,28,5,Mainz,Leverkusen,2,3
+2014/15,28,6,Paderborn,Augsburg,2,1
+2014/15,28,7,HSV,Wolfsburg,0,2
+2014/15,28,8,Köln,Hoffenheim,3,2
+2014/15,28,9,Stuttgart,Bremen,3,2
+2014/15,27,1,Leverkusen,HSV,4,0
+2014/15,27,2,Wolfsburg,Stuttgart,3,1
+2014/15,27,3,Hoffenheim,Gladbach,1,4
+2014/15,27,4,Bremen,Mainz,0,0
+2014/15,27,5,E. Frankfurt,Hannover,2,2
+2014/15,27,6,Freiburg,Köln,1,0
+2014/15,27,7,Dortmund,Bayern,0,1
+2014/15,27,8,Augsburg,Schalke,0,0
+2014/15,27,9,Hertha,Paderborn,2,0
+2014/15,26,1,HSV,Hertha,0,1
+2014/15,26,2,Hannover,Dortmund,2,3
+2014/15,26,3,Freiburg,Augsburg,2,0
+2014/15,26,4,Stuttgart,E. Frankfurt,3,1
+2014/15,26,5,Köln,Bremen,1,1
+2014/15,26,6,Paderborn,Hoffenheim,0,0
+2014/15,26,7,Schalke,Leverkusen,0,1
+2014/15,26,8,Mainz,Wolfsburg,1,1
+2014/15,26,9,Bayern,Gladbach,0,2
+2014/15,25,1,Leverkusen,Stuttgart,4,0
+2014/15,25,2,Augsburg,Mainz,0,2
+2014/15,25,3,Hoffenheim,HSV,3,0
+2014/15,25,4,Hertha,Schalke,2,2
+2014/15,25,5,Bremen,Bayern,0,4
+2014/15,25,6,E. Frankfurt,Paderborn,4,0
+2014/15,25,7,Dortmund,Köln,0,0
+2014/15,25,8,Wolfsburg,Freiburg,3,0
+2014/15,25,9,Gladbach,Hannover,2,0
+2014/15,24,1,Stuttgart,Hertha,0,0
+2014/15,24,2,Schalke,Hoffenheim,3,1
+2014/15,24,3,Augsburg,Wolfsburg,1,0
+2014/15,24,4,Hannover,Bayern,1,3
+2014/15,24,5,Freiburg,Bremen,0,1
+2014/15,24,6,HSV,Dortmund,0,0
+2014/15,24,7,Mainz,Gladbach,2,2
+2014/15,24,8,Köln,E. Frankfurt,4,2
+2014/15,24,9,Paderborn,Leverkusen,0,3
+2014/15,23,1,Bayern,Köln,4,1
+2014/15,23,2,Dortmund,Schalke,3,0
+2014/15,23,3,Leverkusen,Freiburg,1,0
+2014/15,23,4,Hoffenheim,Mainz,2,0
+2014/15,23,5,Hannover,Stuttgart,1,1
+2014/15,23,6,Hertha,Augsburg,1,0
+2014/15,23,7,E. Frankfurt,HSV,2,1
+2014/15,23,8,Gladbach,Paderborn,2,0
+2014/15,23,9,Bremen,Wolfsburg,3,5
+2014/15,22,1,Stuttgart,Dortmund,2,3
+2014/15,22,2,Schalke,Bremen,1,1
+2014/15,22,3,Mainz,E. Frankfurt,3,1
+2014/15,22,4,Augsburg,Leverkusen,2,2
+2014/15,22,5,Freiburg,Hoffenheim,1,1
+2014/15,22,6,Paderborn,Bayern,0,6
+2014/15,22,7,Köln,Hannover,1,1
+2014/15,22,8,HSV,Gladbach,1,1
+2014/15,22,9,Wolfsburg,Hertha,2,1
+2014/15,21,1,Dortmund,Mainz,4,2
+2014/15,21,2,Bayern,HSV,8,0
+2014/15,21,3,Leverkusen,Wolfsburg,4,5
+2014/15,21,4,Gladbach,Köln,1,0
+2014/15,21,5,Hoffenheim,Stuttgart,2,1
+2014/15,21,6,Bremen,Augsburg,3,2
+2014/15,21,7,E. Frankfurt,Schalke,1,0
+2014/15,21,8,Hertha,Freiburg,0,2
+2014/15,21,9,Hannover,Paderborn,1,2
+2014/15,20,1,Schalke,Gladbach,1,0
+2014/15,20,2,Wolfsburg,Hoffenheim,3,0
+2014/15,20,3,Mainz,Hertha,0,2
+2014/15,20,4,Freiburg,Dortmund,0,3
+2014/15,20,5,Stuttgart,Bayern,0,2
+2014/15,20,6,Köln,Paderborn,0,0
+2014/15,20,7,HSV,Hannover,2,1
+2014/15,20,8,Bremen,Leverkusen,2,1
+2014/15,20,9,Augsburg,E. Frankfurt,2,2
+2014/15,19,1,Bayern,Schalke,1,1
+2014/15,19,2,Gladbach,Freiburg,1,0
+2014/15,19,3,Hannover,Mainz,1,1
+2014/15,19,4,E. Frankfurt,Wolfsburg,1,1
+2014/15,19,5,Dortmund,Augsburg,0,1
+2014/15,19,6,Hoffenheim,Bremen,1,2
+2014/15,19,7,Hertha,Leverkusen,0,1
+2014/15,19,8,Köln,Stuttgart,0,0
+2014/15,19,9,Paderborn,HSV,0,3
+2014/15,18,1,Wolfsburg,Bayern,4,1
+2014/15,18,2,Schalke,Hannover,1,0
+2014/15,18,3,Mainz,Paderborn,5,0
+2014/15,18,4,Freiburg,E. Frankfurt,4,1
+2014/15,18,5,Stuttgart,Gladbach,0,1
+2014/15,18,6,HSV,Köln,0,2
+2014/15,18,7,Leverkusen,Dortmund,0,0
+2014/15,18,8,Bremen,Hertha,2,0
+2014/15,18,9,Augsburg,Hoffenheim,3,1
+2014/15,17,1,Mainz,Bayern,1,2
+2014/15,17,2,Schalke,HSV,0,0
+2014/15,17,3,Leverkusen,E. Frankfurt,1,1
+2014/15,17,4,Augsburg,Gladbach,2,1
+2014/15,17,5,Bremen,Dortmund,2,1
+2014/15,17,6,Stuttgart,Paderborn,0,0
+2014/15,17,7,Wolfsburg,Köln,2,1
+2014/15,17,8,Hertha,Hoffenheim,0,5
+2014/15,17,9,Freiburg,Hannover,2,2
+2014/15,16,1,Bayern,Freiburg,2,0
+2014/15,16,2,Hannover,Augsburg,2,0
+2014/15,16,3,HSV,Stuttgart,0,1
+2014/15,16,4,Köln,Mainz,0,0
+2014/15,16,5,Dortmund,Wolfsburg,2,2
+2014/15,16,6,Gladbach,Bremen,4,1
+2014/15,16,7,Hoffenheim,Leverkusen,0,1
+2014/15,16,8,E. Frankfurt,Hertha,4,4
+2014/15,16,9,Paderborn,Schalke,1,2
+2014/15,15,1,Hoffenheim,E. Frankfurt,3,2
+2014/15,15,2,Schalke,Köln,1,2
+2014/15,15,3,Augsburg,Bayern,0,4
+2014/15,15,4,Hertha,Dortmund,1,0
+2014/15,15,5,Bremen,Hannover,3,3
+2014/15,15,6,Freiburg,HSV,0,0
+2014/15,15,7,Mainz,Stuttgart,1,1
+2014/15,15,8,Leverkusen,Gladbach,1,1
+2014/15,15,9,Wolfsburg,Paderborn,1,1
+2014/15,14,1,Dortmund,Hoffenheim,1,0
+2014/15,14,2,Gladbach,Hertha,3,2
+2014/15,14,3,Hannover,Wolfsburg,1,3
+2014/15,14,4,Stuttgart,Schalke,0,4
+2014/15,14,5,Köln,Augsburg,1,2
+2014/15,14,6,Paderborn,Freiburg,1,1
+2014/15,14,7,Bayern,Leverkusen,1,0
+2014/15,14,8,HSV,Mainz,2,1
+2014/15,14,9,E. Frankfurt,Bremen,5,2
+2014/15,13,1,Freiburg,Stuttgart,1,4
+2014/15,13,2,Schalke,Mainz,4,1
+2014/15,13,3,Leverkusen,Köln,5,1
+2014/15,13,4,Augsburg,HSV,3,1
+2014/15,13,5,Hertha,Bayern,0,1
+2014/15,13,6,Bremen,Paderborn,4,0
+2014/15,13,7,Hoffenheim,Hannover,4,3
+2014/15,13,8,Wolfsburg,Gladbach,1,0
+2014/15,13,9,E. Frankfurt,Dortmund,2,0
+2014/15,12,1,Bayern,Hoffenheim,4,0
+2014/15,12,2,Schalke,Wolfsburg,3,2
+2014/15,12,3,Gladbach,E. Frankfurt,1,3
+2014/15,12,4,Mainz,Freiburg,2,2
+2014/15,12,5,Hannover,Leverkusen,1,3
+2014/15,12,6,Paderborn,Dortmund,2,2
+2014/15,12,7,Köln,Hertha,1,2
+2014/15,12,8,HSV,Bremen,2,0
+2014/15,12,9,Stuttgart,Augsburg,0,1
+2014/15,11,1,Hertha,Hannover,0,2
+2014/15,11,2,Leverkusen,Mainz,0,0
+2014/15,11,3,Augsburg,Paderborn,3,0
+2014/15,11,4,Hoffenheim,Köln,3,4
+2014/15,11,5,E. Frankfurt,Bayern,0,4
+2014/15,11,6,Freiburg,Schalke,2,0
+2014/15,11,7,Bremen,Stuttgart,2,0
+2014/15,11,8,Wolfsburg,HSV,2,0
+2014/15,11,9,Dortmund,Gladbach,1,0
+2014/15,10,1,Schalke,Augsburg,1,0
+2014/15,10,2,Mainz,Bremen,1,2
+2014/15,10,3,Hannover,E. Frankfurt,1,0
+2014/15,10,4,Stuttgart,Wolfsburg,0,4
+2014/15,10,5,HSV,Leverkusen,1,0
+2014/15,10,6,Bayern,Dortmund,2,1
+2014/15,10,7,Gladbach,Hoffenheim,3,1
+2014/15,10,8,Köln,Freiburg,0,1
+2014/15,10,9,Paderborn,Hertha,3,1
+2014/15,9,1,Bremen,Köln,0,1
+2014/15,9,2,Dortmund,Hannover,0,1
+2014/15,9,3,Augsburg,Freiburg,2,0
+2014/15,9,4,Hoffenheim,Paderborn,1,0
+2014/15,9,5,Hertha,HSV,3,0
+2014/15,9,6,E. Frankfurt,Stuttgart,4,5
+2014/15,9,7,Leverkusen,Schalke,1,0
+2014/15,9,8,Wolfsburg,Mainz,3,0
+2014/15,9,9,Gladbach,Bayern,0,0
+2014/15,8,1,Bayern,Bremen,6,0
+2014/15,8,2,Mainz,Augsburg,2,1
+2014/15,8,3,Hannover,Gladbach,0,3
+2014/15,8,4,Freiburg,Wolfsburg,1,2
+2014/15,8,5,Stuttgart,Leverkusen,3,3
+2014/15,8,6,Köln,Dortmund,2,1
+2014/15,8,7,Schalke,Hertha,2,0
+2014/15,8,8,HSV,Hoffenheim,1,1
+2014/15,8,9,Paderborn,E. Frankfurt,3,1
+2014/15,7,1,Hertha,Stuttgart,3,2
+2014/15,7,2,Bayern,Hannover,4,0
+2014/15,7,3,Dortmund,HSV,0,1
+2014/15,7,4,Leverkusen,Paderborn,2,2
+2014/15,7,5,Hoffenheim,Schalke,2,1
+2014/15,7,6,Bremen,Freiburg,1,1
+2014/15,7,7,E. Frankfurt,Köln,3,2
+2014/15,7,8,Wolfsburg,Augsburg,1,0
+2014/15,7,9,Gladbach,Mainz,1,1
+2014/15,6,1,Mainz,Hoffenheim,0,0
+2014/15,6,2,Schalke,Dortmund,2,1
+2014/15,6,3,Freiburg,Leverkusen,0,0
+2014/15,6,4,Stuttgart,Hannover,1,0
+2014/15,6,5,Köln,Bayern,0,2
+2014/15,6,6,Paderborn,Gladbach,1,2
+2014/15,6,7,Wolfsburg,Bremen,2,1
+2014/15,6,8,Augsburg,Hertha,1,0
+2014/15,6,9,HSV,E. Frankfurt,1,2
+2014/15,5,1,Bayern,Paderborn,4,0
+2014/15,5,2,Hoffenheim,Freiburg,3,3
+2014/15,5,3,Bremen,Schalke,0,3
+2014/15,5,4,E. Frankfurt,Mainz,2,2
+2014/15,5,5,Dortmund,Stuttgart,2,2
+2014/15,5,6,Leverkusen,Augsburg,1,0
+2014/15,5,7,Gladbach,HSV,1,0
+2014/15,5,8,Hannover,Köln,1,0
+2014/15,5,9,Hertha,Wolfsburg,1,0
+2014/15,4,1,Freiburg,Hertha,2,2
+2014/15,4,2,Schalke,E. Frankfurt,2,2
+2014/15,4,3,Augsburg,Bremen,4,2
+2014/15,4,4,Stuttgart,Hoffenheim,0,2
+2014/15,4,5,HSV,Bayern,0,0
+2014/15,4,6,Paderborn,Hannover,2,0
+2014/15,4,7,Mainz,Dortmund,2,0
+2014/15,4,8,Wolfsburg,Leverkusen,4,1
+2014/15,4,9,Köln,Gladbach,0,0
+2014/15,3,1,Leverkusen,Bremen,3,3
+2014/15,3,2,Bayern,Stuttgart,2,0
+2014/15,3,3,Dortmund,Freiburg,3,1
+2014/15,3,4,Hoffenheim,Wolfsburg,1,1
+2014/15,3,5,Hertha,Mainz,1,3
+2014/15,3,6,Paderborn,Köln,0,0
+2014/15,3,7,Gladbach,Schalke,4,1
+2014/15,3,8,E. Frankfurt,Augsburg,0,1
+2014/15,3,9,Hannover,HSV,2,0
+2014/15,2,1,Augsburg,Dortmund,2,3
+2014/15,2,2,Leverkusen,Hertha,4,2
+2014/15,2,3,Wolfsburg,E. Frankfurt,2,2
+2014/15,2,4,Bremen,Hoffenheim,1,1
+2014/15,2,5,Stuttgart,Köln,0,2
+2014/15,2,6,HSV,Paderborn,0,3
+2014/15,2,7,Schalke,Bayern,1,1
+2014/15,2,8,Mainz,Hannover,0,0
+2014/15,2,9,Freiburg,Gladbach,0,0
+2014/15,1,1,Bayern,Wolfsburg,2,1
+2014/15,1,2,Hoffenheim,Augsburg,2,0
+2014/15,1,3,Hannover,Schalke,2,1
+2014/15,1,4,Hertha,Bremen,2,2
+2014/15,1,5,E. Frankfurt,Freiburg,1,0
+2014/15,1,6,Köln,HSV,0,0
+2014/15,1,7,Dortmund,Leverkusen,0,2
+2014/15,1,8,Paderborn,Mainz,2,2
+2014/15,1,9,Gladbach,Stuttgart,1,1
+2013/14,34,1,Bayern,Stuttgart,1,0
+2013/14,34,2,Schalke,Nürnberg,4,1
+2013/14,34,3,Leverkusen,Bremen,2,1
+2013/14,34,4,Hannover,Freiburg,3,2
+2013/14,34,5,Wolfsburg,Gladbach,3,1
+2013/14,34,6,Hoffenheim,Braunschweig,3,1
+2013/14,34,7,Mainz,HSV,3,2
+2013/14,34,8,Augsburg,E. Frankfurt,2,1
+2013/14,34,9,Hertha,Dortmund,0,4
+2013/14,33,1,Dortmund,Hoffenheim,3,2
+2013/14,33,2,Gladbach,Mainz,3,1
+2013/14,33,3,Stuttgart,Wolfsburg,1,2
+2013/14,33,4,Bremen,Hertha,2,0
+2013/14,33,5,Nürnberg,Hannover,0,2
+2013/14,33,6,Freiburg,Schalke,0,2
+2013/14,33,7,HSV,Bayern,1,4
+2013/14,33,8,Braunschweig,Augsburg,0,1
+2013/14,33,9,E. Frankfurt,Leverkusen,0,2
+2013/14,32,1,Hannover,Stuttgart,0,0
+2013/14,32,2,Bayern,Bremen,5,2
+2013/14,32,3,Wolfsburg,Freiburg,2,2
+2013/14,32,4,Hoffenheim,E. Frankfurt,0,0
+2013/14,32,5,Mainz,Nürnberg,2,0
+2013/14,32,6,Hertha,Braunschweig,2,0
+2013/14,32,7,Leverkusen,Dortmund,2,2
+2013/14,32,8,Augsburg,HSV,3,1
+2013/14,32,9,Schalke,Gladbach,0,1
+2013/14,31,1,E. Frankfurt,Hannover,2,3
+2013/14,31,2,Dortmund,Mainz,4,2
+2013/14,31,3,Bremen,Hoffenheim,3,1
+2013/14,31,4,Freiburg,Gladbach,4,2
+2013/14,31,5,Augsburg,Hertha,0,0
+2013/14,31,6,Braunschweig,Bayern,0,2
+2013/14,31,7,HSV,Wolfsburg,1,3
+2013/14,31,8,Nürnberg,Leverkusen,1,4
+2013/14,31,9,Stuttgart,Schalke,3,1
+2013/14,30,1,Schalke,E. Frankfurt,2,0
+2013/14,30,2,Gladbach,Stuttgart,1,1
+2013/14,30,3,Hannover,HSV,2,1
+2013/14,30,4,Wolfsburg,Nürnberg,4,1
+2013/14,30,5,Freiburg,Braunschweig,2,0
+2013/14,30,6,Mainz,Bremen,3,0
+2013/14,30,7,Bayern,Dortmund,0,3
+2013/14,30,8,Leverkusen,Hertha,2,1
+2013/14,30,9,Hoffenheim,Augsburg,2,0
+2013/14,29,1,HSV,Leverkusen,2,1
+2013/14,29,2,Stuttgart,Freiburg,2,0
+2013/14,29,3,Bremen,Schalke,1,1
+2013/14,29,4,Nürnberg,Gladbach,0,2
+2013/14,29,5,Augsburg,Bayern,1,0
+2013/14,29,6,E. Frankfurt,Mainz,2,0
+2013/14,29,7,Dortmund,Wolfsburg,2,1
+2013/14,29,8,Braunschweig,Hannover,3,0
+2013/14,29,9,Hertha,Hoffenheim,1,1
+2013/14,28,1,Schalke,Hertha,2,0
+2013/14,28,2,Bayern,Hoffenheim,3,3
+2013/14,28,3,Leverkusen,Braunschweig,1,1
+2013/14,28,4,Stuttgart,Dortmund,2,3
+2013/14,28,5,Wolfsburg,E. Frankfurt,2,1
+2013/14,28,6,Mainz,Augsburg,3,0
+2013/14,28,7,Freiburg,Nürnberg,3,2
+2013/14,28,8,Gladbach,HSV,3,1
+2013/14,28,9,Hannover,Bremen,1,2
+2013/14,27,1,Dortmund,Schalke,0,0
+2013/14,27,2,Bremen,Wolfsburg,1,3
+2013/14,27,3,Braunschweig,Mainz,3,1
+2013/14,27,4,Hertha,Bayern,1,3
+2013/14,27,5,Nürnberg,Stuttgart,2,0
+2013/14,27,6,Hoffenheim,Hannover,3,1
+2013/14,27,7,Augsburg,Leverkusen,1,3
+2013/14,27,8,HSV,Freiburg,1,1
+2013/14,27,9,E. Frankfurt,Gladbach,1,0
+2013/14,26,1,Freiburg,Bremen,3,1
+2013/14,26,2,Schalke,Braunschweig,3,1
+2013/14,26,3,Stuttgart,HSV,1,0
+2013/14,26,4,Hannover,Dortmund,0,3
+2013/14,26,5,Wolfsburg,Augsburg,1,1
+2013/14,26,6,Mainz,Bayern,0,2
+2013/14,26,7,Gladbach,Hertha,3,0
+2013/14,26,8,Nürnberg,E. Frankfurt,2,5
+2013/14,26,9,Leverkusen,Hoffenheim,2,3
+2013/14,25,1,Augsburg,Schalke,1,2
+2013/14,25,2,Dortmund,Gladbach,1,2
+2013/14,25,3,Bremen,Stuttgart,1,1
+2013/14,25,4,Hoffenheim,Mainz,2,4
+2013/14,25,5,Braunschweig,Wolfsburg,1,1
+2013/14,25,6,Hertha,Hannover,0,3
+2013/14,25,7,Bayern,Leverkusen,2,1
+2013/14,25,8,HSV,Nürnberg,2,1
+2013/14,25,9,E. Frankfurt,Freiburg,1,4
+2013/14,24,1,Schalke,Hoffenheim,4,0
+2013/14,24,2,Gladbach,Augsburg,1,2
+2013/14,24,3,Stuttgart,Braunschweig,2,2
+2013/14,24,4,Hannover,Leverkusen,1,1
+2013/14,24,5,Wolfsburg,Bayern,1,6
+2013/14,24,6,HSV,E. Frankfurt,1,1
+2013/14,24,7,Nürnberg,Bremen,0,2
+2013/14,24,8,Freiburg,Dortmund,0,1
+2013/14,24,9,Mainz,Hertha,1,1
+2013/14,23,1,Hertha,Freiburg,0,0
+2013/14,23,2,Dortmund,Nürnberg,3,0
+2013/14,23,3,Leverkusen,Mainz,0,1
+2013/14,23,4,Bremen,HSV,1,0
+2013/14,23,5,Augsburg,Hannover,1,1
+2013/14,23,6,Braunschweig,Gladbach,1,1
+2013/14,23,7,Bayern,Schalke,5,1
+2013/14,23,8,Hoffenheim,Wolfsburg,6,2
+2013/14,23,9,E. Frankfurt,Stuttgart,2,1
+2013/14,22,1,Schalke,Mainz,0,0
+2013/14,22,2,Gladbach,Hoffenheim,2,2
+2013/14,22,3,Stuttgart,Hertha,1,2
+2013/14,22,4,Nürnberg,Braunschweig,2,1
+2013/14,22,5,Freiburg,Augsburg,2,4
+2013/14,22,6,HSV,Dortmund,3,0
+2013/14,22,7,Wolfsburg,Leverkusen,3,1
+2013/14,22,8,E. Frankfurt,Bremen,0,0
+2013/14,22,9,Hannover,Bayern,0,4
+2013/14,21,1,Mainz,Hannover,2,0
+2013/14,21,2,Dortmund,E. Frankfurt,4,0
+2013/14,21,3,Bayern,Freiburg,4,0
+2013/14,21,4,Bremen,Gladbach,1,1
+2013/14,21,5,Hoffenheim,Stuttgart,4,1
+2013/14,21,6,Braunschweig,HSV,4,2
+2013/14,21,7,Leverkusen,Schalke,1,2
+2013/14,21,8,Augsburg,Nürnberg,0,1
+2013/14,21,9,Hertha,Wolfsburg,1,2
+2013/14,20,1,Gladbach,Leverkusen,0,1
+2013/14,20,2,Wolfsburg,Mainz,3,0
+2013/14,20,3,Bremen,Dortmund,1,5
+2013/14,20,4,Nürnberg,Bayern,0,2
+2013/14,20,5,Freiburg,Hoffenheim,1,1
+2013/14,20,6,E. Frankfurt,Braunschweig,3,0
+2013/14,20,7,HSV,Hertha,0,3
+2013/14,20,8,Stuttgart,Augsburg,1,4
+2013/14,20,9,Schalke,Hannover,2,0
+2013/14,19,1,Braunschweig,Dortmund,1,2
+2013/14,19,2,Schalke,Wolfsburg,2,1
+2013/14,19,3,Leverkusen,Stuttgart,2,1
+2013/14,19,4,Hoffenheim,HSV,3,0
+2013/14,19,5,Mainz,Freiburg,2,0
+2013/14,19,6,Augsburg,Bremen,3,1
+2013/14,19,7,Hannover,Gladbach,3,1
+2013/14,19,8,Hertha,Nürnberg,1,3
+2013/14,19,9,Bayern,E. Frankfurt,5,0
+2013/14,18,1,Gladbach,Bayern,0,2
+2013/14,18,2,Dortmund,Augsburg,2,2
+2013/14,18,3,Stuttgart,Mainz,1,2
+2013/14,18,4,Wolfsburg,Hannover,1,3
+2013/14,18,5,Nürnberg,Hoffenheim,4,0
+2013/14,18,6,Freiburg,Leverkusen,3,2
+2013/14,18,7,E. Frankfurt,Hertha,1,0
+2013/14,18,8,Bremen,Braunschweig,0,0
+2013/14,18,9,HSV,Schalke,0,3
+2013/14,17,1,E. Frankfurt,Augsburg,1,1
+2013/14,17,2,Dortmund,Hertha,1,2
+2013/14,17,3,Bremen,Leverkusen,1,0
+2013/14,17,4,Freiburg,Hannover,2,1
+2013/14,17,5,HSV,Mainz,2,3
+2013/14,17,6,Braunschweig,Hoffenheim,1,0
+2013/14,17,7,Nürnberg,Schalke,0,0
+2013/14,17,8,Gladbach,Wolfsburg,2,2
+2013/14,17,9,Stuttgart,Bayern,1,2
+2013/14,16,1,Hertha,Bremen,3,2
+2013/14,16,2,Bayern,HSV,3,1
+2013/14,16,3,Hannover,Nürnberg,3,3
+2013/14,16,4,Hoffenheim,Dortmund,2,2
+2013/14,16,5,Mainz,Gladbach,0,0
+2013/14,16,6,Augsburg,Braunschweig,4,1
+2013/14,16,7,Wolfsburg,Stuttgart,3,1
+2013/14,16,8,Schalke,Freiburg,2,0
+2013/14,16,9,Leverkusen,E. Frankfurt,0,1
+2013/14,15,1,Nürnberg,Mainz,1,1
+2013/14,15,2,Gladbach,Schalke,2,1
+2013/14,15,3,Stuttgart,Hannover,4,2
+2013/14,15,4,Bremen,Bayern,0,7
+2013/14,15,5,HSV,Augsburg,0,1
+2013/14,15,6,E. Frankfurt,Hoffenheim,1,2
+2013/14,15,7,Dortmund,Leverkusen,0,1
+2013/14,15,8,Freiburg,Wolfsburg,0,3
+2013/14,15,9,Braunschweig,Hertha,0,2
+2013/14,14,1,Wolfsburg,HSV,1,1
+2013/14,14,2,Bayern,Braunschweig,2,0
+2013/14,14,3,Leverkusen,Nürnberg,3,0
+2013/14,14,4,Hoffenheim,Bremen,4,4
+2013/14,14,5,Mainz,Dortmund,1,3
+2013/14,14,6,Hertha,Augsburg,0,0
+2013/14,14,7,Schalke,Stuttgart,3,0
+2013/14,14,8,Hannover,E. Frankfurt,2,0
+2013/14,14,9,Gladbach,Freiburg,1,0
+2013/14,13,1,Stuttgart,Gladbach,0,2
+2013/14,13,2,Nürnberg,Wolfsburg,1,1
+2013/14,13,3,Augsburg,Hoffenheim,2,0
+2013/14,13,4,Braunschweig,Freiburg,0,1
+2013/14,13,5,E. Frankfurt,Schalke,3,3
+2013/14,13,6,Hertha,Leverkusen,0,1
+2013/14,13,7,Dortmund,Bayern,0,3
+2013/14,13,8,HSV,Hannover,3,1
+2013/14,13,9,Bremen,Mainz,2,3
+2013/14,12,1,Hannover,Braunschweig,0,0
+2013/14,12,2,Bayern,Augsburg,3,0
+2013/14,12,3,Schalke,Bremen,3,1
+2013/14,12,4,Leverkusen,HSV,5,3
+2013/14,12,5,Wolfsburg,Dortmund,2,1
+2013/14,12,6,Hoffenheim,Hertha,2,3
+2013/14,12,7,Gladbach,Nürnberg,3,1
+2013/14,12,8,Mainz,E. Frankfurt,1,0
+2013/14,12,9,Freiburg,Stuttgart,1,3
+2013/14,11,1,Dortmund,Stuttgart,6,1
+2013/14,11,2,Nürnberg,Freiburg,0,3
+2013/14,11,3,Hoffenheim,Bayern,1,2
+2013/14,11,4,HSV,Gladbach,0,2
+2013/14,11,5,Braunschweig,Leverkusen,1,0
+2013/14,11,6,Hertha,Schalke,0,2
+2013/14,11,7,E. Frankfurt,Wolfsburg,1,2
+2013/14,11,8,Augsburg,Mainz,2,1
+2013/14,11,9,Bremen,Hannover,3,2
+2013/14,10,1,Stuttgart,Nürnberg,1,1
+2013/14,10,2,Bayern,Hertha,3,2
+2013/14,10,3,Schalke,Dortmund,1,3
+2013/14,10,4,Leverkusen,Augsburg,2,1
+2013/14,10,5,Hannover,Hoffenheim,1,4
+2013/14,10,6,Mainz,Braunschweig,2,0
+2013/14,10,7,Wolfsburg,Bremen,3,0
+2013/14,10,8,Freiburg,HSV,0,3
+2013/14,10,9,Gladbach,E. Frankfurt,4,1
+2013/14,9,1,Hoffenheim,Leverkusen,1,2
+2013/14,9,2,Dortmund,Hannover,1,0
+2013/14,9,3,Bayern,Mainz,4,1
+2013/14,9,4,Bremen,Freiburg,0,0
+2013/14,9,5,Braunschweig,Schalke,2,3
+2013/14,9,6,E. Frankfurt,Nürnberg,1,1
+2013/14,9,7,Hertha,Gladbach,1,0
+2013/14,9,8,HSV,Stuttgart,3,3
+2013/14,9,9,Augsburg,Wolfsburg,1,2
+2013/14,8,1,Hannover,Hertha,1,1
+2013/14,8,2,Schalke,Augsburg,4,1
+2013/14,8,3,Gladbach,Dortmund,2,0
+2013/14,8,4,Stuttgart,Bremen,1,1
+2013/14,8,5,Wolfsburg,Braunschweig,0,2
+2013/14,8,6,Mainz,Hoffenheim,2,2
+2013/14,8,7,Leverkusen,Bayern,1,1
+2013/14,8,8,Nürnberg,HSV,0,5
+2013/14,8,9,Freiburg,E. Frankfurt,1,1
+2013/14,7,1,Augsburg,Gladbach,2,2
+2013/14,7,2,Dortmund,Freiburg,5,0
+2013/14,7,3,Bayern,Wolfsburg,1,0
+2013/14,7,4,Leverkusen,Hannover,2,0
+2013/14,7,5,Hoffenheim,Schalke,3,3
+2013/14,7,6,Hertha,Mainz,3,1
+2013/14,7,7,E. Frankfurt,HSV,2,2
+2013/14,7,8,Bremen,Nürnberg,3,3
+2013/14,7,9,Braunschweig,Stuttgart,0,4
+2013/14,6,1,Gladbach,Braunschweig,4,1
+2013/14,6,2,Hannover,Augsburg,2,1
+2013/14,6,3,Wolfsburg,Hoffenheim,2,1
+2013/14,6,4,Nürnberg,Dortmund,1,1
+2013/14,6,5,Mainz,Leverkusen,1,4
+2013/14,6,6,HSV,Bremen,0,2
+2013/14,6,7,Schalke,Bayern,0,4
+2013/14,6,8,Freiburg,Hertha,1,1
+2013/14,6,9,Stuttgart,E. Frankfurt,1,1
+2013/14,5,1,Hertha,Stuttgart,0,1
+2013/14,5,2,Bayern,Hannover,2,0
+2013/14,5,3,Leverkusen,Wolfsburg,3,1
+2013/14,5,4,Bremen,E. Frankfurt,0,3
+2013/14,5,5,Mainz,Schalke,0,1
+2013/14,5,6,Augsburg,Freiburg,2,1
+2013/14,5,7,Dortmund,HSV,6,2
+2013/14,5,8,Hoffenheim,Gladbach,2,1
+2013/14,5,9,Braunschweig,Nürnberg,1,1
+2013/14,4,1,Freiburg,Bayern,1,1
+2013/14,4,2,Gladbach,Bremen,4,1
+2013/14,4,3,Hannover,Mainz,4,1
+2013/14,4,4,Wolfsburg,Hertha,2,0
+2013/14,4,5,Nürnberg,Augsburg,0,1
+2013/14,4,6,HSV,Braunschweig,4,0
+2013/14,4,7,Schalke,Leverkusen,2,0
+2013/14,4,8,Stuttgart,Hoffenheim,6,2
+2013/14,4,9,E. Frankfurt,Dortmund,1,2
+2013/14,3,1,Dortmund,Bremen,1,0
+2013/14,3,2,Bayern,Nürnberg,2,0
+2013/14,3,3,Leverkusen,Gladbach,4,2
+2013/14,3,4,Hannover,Schalke,2,1
+2013/14,3,5,Hoffenheim,Freiburg,3,3
+2013/14,3,6,Mainz,Wolfsburg,2,0
+2013/14,3,7,Hertha,HSV,1,0
+2013/14,3,8,Braunschweig,E. Frankfurt,0,2
+2013/14,3,9,Augsburg,Stuttgart,2,1
+2013/14,2,1,Stuttgart,Leverkusen,0,1
+2013/14,2,2,Wolfsburg,Schalke,4,0
+2013/14,2,3,Bremen,Augsburg,1,0
+2013/14,2,4,Freiburg,Mainz,1,2
+2013/14,2,5,HSV,Hoffenheim,1,5
+2013/14,2,6,E. Frankfurt,Bayern,0,1
+2013/14,2,7,Gladbach,Hannover,3,0
+2013/14,2,8,Nürnberg,Hertha,2,2
+2013/14,2,9,Dortmund,Braunschweig,2,1
+2013/14,1,1,Bayern,Gladbach,3,1
+2013/14,1,2,Hoffenheim,Nürnberg,2,2
+2013/14,1,3,Leverkusen,Freiburg,3,1
+2013/14,1,4,Hannover,Wolfsburg,2,0
+2013/14,1,5,Augsburg,Dortmund,0,4
+2013/14,1,6,Hertha,E. Frankfurt,6,1
+2013/14,1,7,Braunschweig,Bremen,0,1
+2013/14,1,8,Mainz,Stuttgart,3,2
+2013/14,1,9,Schalke,HSV,3,3
+2012/13,34,1,Dortmund,Hoffenheim,1,2
+2012/13,34,2,Gladbach,Bayern,3,4
+2012/13,34,3,Stuttgart,Mainz,2,2
+2012/13,34,4,Hannover,Düsseldorf,3,0
+2012/13,34,5,Nürnberg,Bremen,3,2
+2012/13,34,6,Freiburg,Schalke,1,2
+2012/13,34,7,Augsburg,Fürth,3,1
+2012/13,34,8,HSV,Leverkusen,0,1
+2012/13,34,9,E. Frankfurt,Wolfsburg,2,2
+2012/13,33,1,Bayern,Augsburg,3,0
+2012/13,33,2,Schalke,Stuttgart,1,2
+2012/13,33,3,Leverkusen,Hannover,3,1
+2012/13,33,4,Wolfsburg,Dortmund,3,3
+2012/13,33,5,Bremen,E. Frankfurt,1,1
+2012/13,33,6,Hoffenheim,HSV,1,4
+2012/13,33,7,Mainz,Gladbach,2,4
+2012/13,33,8,Fürth,Freiburg,1,2
+2012/13,33,9,Düsseldorf,Nürnberg,1,2
+2012/13,32,1,Gladbach,Schalke,0,1
+2012/13,32,2,Stuttgart,Fürth,0,2
+2012/13,32,3,Hannover,Mainz,2,2
+2012/13,32,4,Bremen,Hoffenheim,2,2
+2012/13,32,5,Nürnberg,Leverkusen,0,2
+2012/13,32,6,E. Frankfurt,Düsseldorf,3,1
+2012/13,32,7,Dortmund,Bayern,1,1
+2012/13,32,8,Freiburg,Augsburg,2,0
+2012/13,32,9,HSV,Wolfsburg,1,1
+2012/13,31,1,Fürth,Hannover,2,3
+2012/13,31,2,Bayern,Freiburg,1,0
+2012/13,31,3,Leverkusen,Bremen,1,0
+2012/13,31,4,Wolfsburg,Gladbach,3,1
+2012/13,31,5,Hoffenheim,Nürnberg,2,1
+2012/13,31,6,Augsburg,Stuttgart,3,0
+2012/13,31,7,Düsseldorf,Dortmund,1,2
+2012/13,31,8,Mainz,E. Frankfurt,0,0
+2012/13,31,9,Schalke,HSV,4,1
+2012/13,30,1,Gladbach,Augsburg,1,0
+2012/13,30,2,Dortmund,Mainz,2,0
+2012/13,30,3,Leverkusen,Hoffenheim,5,0
+2012/13,30,4,Hannover,Bayern,1,6
+2012/13,30,5,HSV,Düsseldorf,2,1
+2012/13,30,6,E. Frankfurt,Schalke,1,0
+2012/13,30,7,Bremen,Wolfsburg,0,3
+2012/13,30,8,Stuttgart,Freiburg,2,1
+2012/13,30,9,Nürnberg,Fürth,0,1
+2012/13,29,1,Freiburg,Hannover,3,1
+2012/13,29,2,Bayern,Nürnberg,4,0
+2012/13,29,3,Wolfsburg,Hoffenheim,2,2
+2012/13,29,4,Mainz,HSV,1,2
+2012/13,29,5,Fürth,Dortmund,1,6
+2012/13,29,6,Düsseldorf,Bremen,2,2
+2012/13,29,7,Schalke,Leverkusen,2,2
+2012/13,29,8,Stuttgart,Gladbach,2,0
+2012/13,29,9,Augsburg,E. Frankfurt,2,0
+2012/13,28,1,Hoffenheim,Düsseldorf,3,0
+2012/13,28,2,Dortmund,Augsburg,4,2
+2012/13,28,3,Gladbach,Fürth,1,0
+2012/13,28,4,Leverkusen,Wolfsburg,1,1
+2012/13,28,5,Bremen,Schalke,0,2
+2012/13,28,6,E. Frankfurt,Bayern,0,1
+2012/13,28,7,HSV,Freiburg,0,1
+2012/13,28,8,Nürnberg,Mainz,2,1
+2012/13,28,9,Hannover,Stuttgart,0,0
+2012/13,27,1,Schalke,Hoffenheim,3,0
+2012/13,27,2,Stuttgart,Dortmund,1,2
+2012/13,27,3,Freiburg,Gladbach,2,0
+2012/13,27,4,Mainz,Bremen,1,1
+2012/13,27,5,Augsburg,Hannover,0,2
+2012/13,27,6,Düsseldorf,Leverkusen,1,4
+2012/13,27,7,Bayern,HSV,9,2
+2012/13,27,8,Wolfsburg,Nürnberg,2,2
+2012/13,27,9,Fürth,E. Frankfurt,2,3
+2012/13,26,1,Wolfsburg,Düsseldorf,1,1
+2012/13,26,2,Dortmund,Freiburg,5,1
+2012/13,26,3,Bremen,Fürth,2,2
+2012/13,26,4,Nürnberg,Schalke,3,0
+2012/13,26,5,Hoffenheim,Mainz,0,0
+2012/13,26,6,HSV,Augsburg,0,1
+2012/13,26,7,Leverkusen,Bayern,1,2
+2012/13,26,8,E. Frankfurt,Stuttgart,1,2
+2012/13,26,9,Gladbach,Hannover,1,0
+2012/13,25,1,Augsburg,Nürnberg,1,2
+2012/13,25,2,Bayern,Düsseldorf,3,2
+2012/13,25,3,Schalke,Dortmund,2,1
+2012/13,25,4,Freiburg,Wolfsburg,2,5
+2012/13,25,5,Mainz,Leverkusen,1,0
+2012/13,25,6,Fürth,Hoffenheim,0,3
+2012/13,25,7,Gladbach,Bremen,1,1
+2012/13,25,8,Hannover,E. Frankfurt,0,0
+2012/13,25,9,Stuttgart,HSV,0,1
+2012/13,24,1,E. Frankfurt,Gladbach,0,1
+2012/13,24,2,Dortmund,Hannover,3,1
+2012/13,24,3,Wolfsburg,Schalke,1,4
+2012/13,24,4,Bremen,Augsburg,0,1
+2012/13,24,5,Nürnberg,Freiburg,1,1
+2012/13,24,6,HSV,Fürth,1,1
+2012/13,24,7,Leverkusen,Stuttgart,2,1
+2012/13,24,8,Hoffenheim,Bayern,0,1
+2012/13,24,9,Düsseldorf,Mainz,1,1
+2012/13,23,1,Freiburg,E. Frankfurt,0,0
+2012/13,23,2,Bayern,Bremen,6,1
+2012/13,23,3,Stuttgart,Nürnberg,1,1
+2012/13,23,4,Hannover,HSV,5,1
+2012/13,23,5,Mainz,Wolfsburg,1,1
+2012/13,23,6,Augsburg,Hoffenheim,2,1
+2012/13,23,7,Schalke,Düsseldorf,2,1
+2012/13,23,8,Gladbach,Dortmund,1,1
+2012/13,23,9,Fürth,Leverkusen,0,0
+2012/13,22,1,Wolfsburg,Bayern,0,2
+2012/13,22,2,Leverkusen,Augsburg,2,1
+2012/13,22,3,Bremen,Freiburg,2,3
+2012/13,22,4,Mainz,Schalke,2,2
+2012/13,22,5,HSV,Gladbach,1,0
+2012/13,22,6,Düsseldorf,Fürth,1,0
+2012/13,22,7,Dortmund,E. Frankfurt,3,0
+2012/13,22,8,Nürnberg,Hannover,2,2
+2012/13,22,9,Hoffenheim,Stuttgart,0,1
+2012/13,21,1,Dortmund,HSV,1,4
+2012/13,21,2,Gladbach,Leverkusen,3,3
+2012/13,21,3,Stuttgart,Bremen,1,4
+2012/13,21,4,Hannover,Hoffenheim,1,0
+2012/13,21,5,Fürth,Wolfsburg,0,1
+2012/13,21,6,E. Frankfurt,Nürnberg,0,0
+2012/13,21,7,Bayern,Schalke,4,0
+2012/13,21,8,Augsburg,Mainz,1,1
+2012/13,21,9,Freiburg,Düsseldorf,1,0
+2012/13,20,1,Bremen,Hannover,2,0
+2012/13,20,2,Schalke,Fürth,1,2
+2012/13,20,3,Wolfsburg,Augsburg,1,1
+2012/13,20,4,Hoffenheim,Freiburg,2,1
+2012/13,20,5,Mainz,Bayern,0,3
+2012/13,20,6,Düsseldorf,Stuttgart,3,1
+2012/13,20,7,HSV,E. Frankfurt,0,2
+2012/13,20,8,Nürnberg,Gladbach,2,1
+2012/13,20,9,Leverkusen,Dortmund,2,3
+2012/13,19,1,Dortmund,Nürnberg,3,0
+2012/13,19,2,Gladbach,Düsseldorf,2,1
+2012/13,19,3,Hannover,Wolfsburg,2,1
+2012/13,19,4,Augsburg,Schalke,0,0
+2012/13,19,5,Fürth,Mainz,0,3
+2012/13,19,6,E. Frankfurt,Hoffenheim,2,1
+2012/13,19,7,Freiburg,Leverkusen,0,0
+2012/13,19,8,HSV,Bremen,3,2
+2012/13,19,9,Stuttgart,Bayern,0,2
+2012/13,18,1,Schalke,Hannover,5,4
+2012/13,18,2,Bayern,Fürth,2,0
+2012/13,18,3,Leverkusen,E. Frankfurt,3,1
+2012/13,18,4,Wolfsburg,Stuttgart,2,0
+2012/13,18,5,Hoffenheim,Gladbach,0,0
+2012/13,18,6,Mainz,Freiburg,0,0
+2012/13,18,7,Bremen,Dortmund,0,5
+2012/13,18,8,Nürnberg,HSV,1,1
+2012/13,18,9,Düsseldorf,Augsburg,2,3
+2012/13,17,1,Bayern,Gladbach,1,1
+2012/13,17,2,Leverkusen,HSV,3,0
+2012/13,17,3,Wolfsburg,E. Frankfurt,0,2
+2012/13,17,4,Mainz,Stuttgart,3,1
+2012/13,17,5,Fürth,Augsburg,1,1
+2012/13,17,6,Düsseldorf,Hannover,2,1
+2012/13,17,7,Schalke,Freiburg,1,3
+2012/13,17,8,Hoffenheim,Dortmund,1,3
+2012/13,17,9,Bremen,Nürnberg,1,1
+2012/13,16,1,HSV,Hoffenheim,2,0
+2012/13,16,2,Dortmund,Wolfsburg,2,3
+2012/13,16,3,Stuttgart,Schalke,3,1
+2012/13,16,4,Nürnberg,Düsseldorf,2,0
+2012/13,16,5,Freiburg,Fürth,1,0
+2012/13,16,6,Augsburg,Bayern,0,2
+2012/13,16,7,E. Frankfurt,Bremen,4,1
+2012/13,16,8,Gladbach,Mainz,2,0
+2012/13,16,9,Hannover,Leverkusen,3,2
+2012/13,15,1,Düsseldorf,E. Frankfurt,4,0
+2012/13,15,2,Schalke,Gladbach,1,1
+2012/13,15,3,Leverkusen,Nürnberg,1,0
+2012/13,15,4,Mainz,Hannover,2,1
+2012/13,15,5,Augsburg,Freiburg,1,1
+2012/13,15,6,Fürth,Stuttgart,0,1
+2012/13,15,7,Bayern,Dortmund,1,1
+2012/13,15,8,Hoffenheim,Bremen,1,4
+2012/13,15,9,Wolfsburg,HSV,1,1
+2012/13,14,1,Dortmund,Düsseldorf,1,1
+2012/13,14,2,Hannover,Fürth,2,0
+2012/13,14,3,HSV,Schalke,3,1
+2012/13,14,4,E. Frankfurt,Mainz,1,3
+2012/13,14,5,Gladbach,Wolfsburg,2,0
+2012/13,14,6,Stuttgart,Augsburg,2,1
+2012/13,14,7,Bremen,Leverkusen,1,4
+2012/13,14,8,Freiburg,Bayern,0,2
+2012/13,14,9,Nürnberg,Hoffenheim,4,2
+2012/13,13,1,Düsseldorf,HSV,2,0
+2012/13,13,2,Bayern,Hannover,5,0
+2012/13,13,3,Schalke,E. Frankfurt,1,1
+2012/13,13,4,Wolfsburg,Bremen,1,1
+2012/13,13,5,Mainz,Dortmund,1,2
+2012/13,13,6,Fürth,Nürnberg,0,0
+2012/13,13,7,Freiburg,Stuttgart,3,0
+2012/13,13,8,Hoffenheim,Leverkusen,1,2
+2012/13,13,9,Augsburg,Gladbach,1,1
+2012/13,12,1,Dortmund,Fürth,3,1
+2012/13,12,2,Gladbach,Stuttgart,1,2
+2012/13,12,3,Hannover,Freiburg,1,2
+2012/13,12,4,Nürnberg,Bayern,1,1
+2012/13,12,5,HSV,Mainz,1,0
+2012/13,12,6,E. Frankfurt,Augsburg,4,2
+2012/13,12,7,Leverkusen,Schalke,2,0
+2012/13,12,8,Bremen,Düsseldorf,2,1
+2012/13,12,9,Hoffenheim,Wolfsburg,1,3
+2012/13,11,1,Mainz,Nürnberg,2,1
+2012/13,11,2,Bayern,E. Frankfurt,2,0
+2012/13,11,3,Schalke,Bremen,2,1
+2012/13,11,4,Freiburg,HSV,0,0
+2012/13,11,5,Augsburg,Dortmund,1,3
+2012/13,11,6,Düsseldorf,Hoffenheim,1,1
+2012/13,11,7,Wolfsburg,Leverkusen,3,1
+2012/13,11,8,Stuttgart,Hannover,2,4
+2012/13,11,9,Fürth,Gladbach,2,4
+2012/13,10,1,E. Frankfurt,Fürth,1,1
+2012/13,10,2,Dortmund,Stuttgart,0,0
+2012/13,10,3,Gladbach,Freiburg,1,1
+2012/13,10,4,Hannover,Augsburg,2,0
+2012/13,10,5,Nürnberg,Wolfsburg,1,0
+2012/13,10,6,Hoffenheim,Schalke,3,2
+2012/13,10,7,HSV,Bayern,0,3
+2012/13,10,8,Leverkusen,Düsseldorf,3,2
+2012/13,10,9,Bremen,Mainz,2,1
+2012/13,9,1,Augsburg,HSV,0,2
+2012/13,9,2,Schalke,Nürnberg,1,0
+2012/13,9,3,Freiburg,Dortmund,0,2
+2012/13,9,4,Mainz,Hoffenheim,3,0
+2012/13,9,5,Fürth,Bremen,1,1
+2012/13,9,6,Düsseldorf,Wolfsburg,1,4
+2012/13,9,7,Stuttgart,E. Frankfurt,2,1
+2012/13,9,8,Bayern,Leverkusen,1,2
+2012/13,9,9,Hannover,Gladbach,2,3
+2012/13,8,1,Hoffenheim,Fürth,3,3
+2012/13,8,2,Dortmund,Schalke,1,2
+2012/13,8,3,Leverkusen,Mainz,2,2
+2012/13,8,4,Wolfsburg,Freiburg,0,2
+2012/13,8,5,E. Frankfurt,Hannover,3,1
+2012/13,8,6,Düsseldorf,Bayern,0,5
+2012/13,8,7,Bremen,Gladbach,4,0
+2012/13,8,8,Nürnberg,Augsburg,0,0
+2012/13,8,9,HSV,Stuttgart,0,1
+2012/13,7,1,Augsburg,Bremen,3,1
+2012/13,7,2,Bayern,Hoffenheim,2,0
+2012/13,7,3,Schalke,Wolfsburg,3,0
+2012/13,7,4,Freiburg,Nürnberg,3,0
+2012/13,7,5,Mainz,Düsseldorf,1,0
+2012/13,7,6,Fürth,HSV,0,1
+2012/13,7,7,Gladbach,E. Frankfurt,2,0
+2012/13,7,8,Stuttgart,Leverkusen,2,2
+2012/13,7,9,Hannover,Dortmund,1,1
+2012/13,6,1,Düsseldorf,Schalke,2,2
+2012/13,6,2,Leverkusen,Fürth,2,0
+2012/13,6,3,Bremen,Bayern,0,2
+2012/13,6,4,Nürnberg,Stuttgart,0,2
+2012/13,6,5,Hoffenheim,Augsburg,0,0
+2012/13,6,6,HSV,Hannover,1,0
+2012/13,6,7,Dortmund,Gladbach,5,0
+2012/13,6,8,E. Frankfurt,Freiburg,2,1
+2012/13,6,9,Wolfsburg,Mainz,0,2
+2012/13,5,1,Bayern,Wolfsburg,3,0
+2012/13,5,2,Schalke,Mainz,3,0
+2012/13,5,3,Fürth,Düsseldorf,0,2
+2012/13,5,4,E. Frankfurt,Dortmund,3,3
+2012/13,5,5,Gladbach,HSV,2,2
+2012/13,5,6,Stuttgart,Hoffenheim,0,3
+2012/13,5,7,Hannover,Nürnberg,4,1
+2012/13,5,8,Freiburg,Bremen,1,2
+2012/13,5,9,Augsburg,Leverkusen,1,3
+2012/13,4,1,Nürnberg,E. Frankfurt,1,2
+2012/13,4,2,Schalke,Bayern,0,2
+2012/13,4,3,Wolfsburg,Fürth,1,1
+2012/13,4,4,Mainz,Augsburg,2,0
+2012/13,4,5,HSV,Dortmund,3,2
+2012/13,4,6,Düsseldorf,Freiburg,0,0
+2012/13,4,7,Leverkusen,Gladbach,1,1
+2012/13,4,8,Bremen,Stuttgart,2,2
+2012/13,4,9,Hoffenheim,Hannover,3,1
+2012/13,3,1,Augsburg,Wolfsburg,0,0
+2012/13,3,2,Dortmund,Leverkusen,3,0
+2012/13,3,3,Bayern,Mainz,3,1
+2012/13,3,4,Gladbach,Nürnberg,2,3
+2012/13,3,5,Stuttgart,Düsseldorf,0,0
+2012/13,3,6,Hannover,Bremen,3,2
+2012/13,3,7,Fürth,Schalke,0,2
+2012/13,3,8,Freiburg,Hoffenheim,5,3
+2012/13,3,9,E. Frankfurt,HSV,3,2
+2012/13,2,1,Mainz,Fürth,0,1
+2012/13,2,2,Schalke,Augsburg,3,1
+2012/13,2,3,Leverkusen,Freiburg,2,0
+2012/13,2,4,Bremen,HSV,2,0
+2012/13,2,5,Nürnberg,Dortmund,1,1
+2012/13,2,6,Hoffenheim,E. Frankfurt,0,4
+2012/13,2,7,Düsseldorf,Gladbach,0,0
+2012/13,2,8,Wolfsburg,Hannover,0,4
+2012/13,2,9,Bayern,Stuttgart,6,1
+2012/13,1,1,Dortmund,Bremen,2,1
+2012/13,1,2,Gladbach,Hoffenheim,2,1
+2012/13,1,3,Freiburg,Mainz,1,1
+2012/13,1,4,Augsburg,Düsseldorf,0,2
+2012/13,1,5,HSV,Nürnberg,0,1
+2012/13,1,6,Fürth,Bayern,0,3
+2012/13,1,7,E. Frankfurt,Leverkusen,2,1
+2012/13,1,8,Stuttgart,Wolfsburg,0,1
+2012/13,1,9,Hannover,Schalke,2,2

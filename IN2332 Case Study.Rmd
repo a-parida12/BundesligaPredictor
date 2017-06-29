@@ -1,0 +1,650 @@
+---
+title: "IN2332 Case Study"
+author: "Abhijeet Parida,Mo Yujiao, Nikhil Agarwal, Falko Sp??h"
+date: "20/06/2017"
+output: pdf_document
+---
+Pre-processing
+```{r}
+#setwd("~/Desktop/IN2332/Case Study")
+tab = read.csv("more_football.csv")
+tab$day = as.integer(factor(with(tab, paste(
+  season, sprintf("%02d", matchday), sep = "_"
+))))
+tab$outcome = with(tab, ifelse(
+  homegoals > guestgoals,
+  "win",
+  ifelse(homegoals == guestgoals, "draw", "lose")
+))
+
+minday = max(tab$day) - 50
+seasons = split(tab, tab$season)
+season1_home = as.character(unique(seasons[[1]]$home))
+season2_home = as.character(unique(seasons[[2]]$home))
+season3_home = as.character(unique(seasons[[3]]$home))
+season4_home = as.character(unique(seasons[[4]]$home))
+season5_home = as.character(unique(seasons[[5]]$home))
+
+season1_guest = as.character(unique(seasons[[1]]$guest))
+season2_guest = as.character(unique(seasons[[2]]$guest))
+season3_guest = as.character(unique(seasons[[3]]$guest))
+season4_guest = as.character(unique(seasons[[4]]$guest))
+season5_guest = as.character(unique(seasons[[5]]$guest))
+
+# teams gives all the 25 teams of the 5 seasons
+teams = as.character(unique(tab$home))
+
+# season1 is a subset of tab
+season1 = seasons[[1]]
+season2 = seasons[[2]]
+season3 = seasons[[3]]
+season4 = seasons[[4]]
+season5 = seasons[[5]]
+
+# season1_match gives the 3-d array of home against guest goals
+season1_match = array(dim = c(18, 18, 2))
+colnames(season1_match) = season1_guest
+rownames(season1_match) = season1_home
+for (home in rownames(season1_match)) {
+  home = toString(home)
+  for (guest in colnames(season1_match)) {
+    guest = toString(guest)
+    home_goal = season1[season1[, "home"] == home &
+                          season1[, "guest"] == guest, ]$homegoals
+    if (!identical(home_goal, integer(0))) {
+      season1_match[home, guest, 1] = home_goal
+    }
+    guest_goal = season1[season1[, "home"] == home &
+                           season1[, "guest"] == guest, ]$guestgoals
+    if (!identical(guest_goal, integer(0))) {
+      season1_match[home, guest, 2] = guest_goal
+    }
+  }
+}
+season2_match = array(dim = c(18, 18, 2))
+colnames(season2_match) = season2_guest
+rownames(season2_match) = season2_home
+for (home in rownames(season2_match)) {
+  home = toString(home)
+  for (guest in colnames(season2_match)) {
+    guest = toString(guest)
+    home_goal = season2[season2[, "home"] == home &
+                          season2[, "guest"] == guest, ]$homegoals
+    if (!identical(home_goal, integer(0))) {
+      season2_match[home, guest, 1] = home_goal
+    }
+    guest_goal = season2[season2[, "home"] == home &
+                           season2[, "guest"] == guest, ]$guestgoals
+    if (!identical(guest_goal, integer(0))) {
+      season2_match[home, guest, 2] = guest_goal
+    }
+  }
+}
+season3_match = array(dim = c(18, 18, 2))
+colnames(season3_match) = season3_guest
+rownames(season3_match) = season3_home
+for (home in rownames(season3_match)) {
+  home = toString(home)
+  for (guest in colnames(season3_match)) {
+    guest = toString(guest)
+    home_goal = season3[season3[, "home"] == home &
+                          season3[, "guest"] == guest, ]$homegoals
+    if (!identical(home_goal, integer(0))) {
+      season3_match[home, guest, 1] = home_goal
+    }
+    guest_goal = season3[season3[, "home"] == home &
+                           season3[, "guest"] == guest, ]$guestgoals
+    if (!identical(guest_goal, integer(0))) {
+      season3_match[home, guest, 2] = guest_goal
+    }
+  }
+}
+season4_match = array(dim = c(18, 18, 2))
+colnames(season4_match) = season4_guest
+rownames(season4_match) = season4_home
+for (home in rownames(season4_match)) {
+  home = toString(home)
+  for (guest in colnames(season4_match)) {
+    guest = toString(guest)
+    home_goal = season4[season4[, "home"] == home &
+                          season4[, "guest"] == guest, ]$homegoals
+    if (!identical(home_goal, integer(0))) {
+      season4_match[home, guest, 1] = home_goal
+    }
+    guest_goal = season4[season4[, "home"] == home &
+                           season4[, "guest"] == guest, ]$guestgoals
+    if (!identical(guest_goal, integer(0))) {
+      season4_match[home, guest, 2] = guest_goal
+    }
+  }
+}
+season5_match = array(dim = c(18, 18, 2))
+colnames(season5_match) = season5_guest
+rownames(season5_match) = season5_home
+for (home in rownames(season5_match)) {
+  home = toString(home)
+  for (guest in colnames(season5_match)) {
+    guest = toString(guest)
+    home_goal = season5[season5[, "home"] == home &
+                          season5[, "guest"] == guest, ]$homegoals
+    if (!identical(home_goal, integer(0))) {
+      season5_match[home, guest, 1] = home_goal
+    }
+    guest_goal = season5[season5[, "home"] == home &
+                           season5[, "guest"] == guest, ]$guestgoals
+    if (!identical(guest_goal, integer(0))) {
+      season5_match[home, guest, 2] = guest_goal
+    }
+  }
+}
+
+season1_homegoals = rowSums(season1_match[, , 1], na.rm = TRUE) # total home goals of each home team in season 1
+season1_guestgoals = colSums(season1_match[, , 2], na.rm = TRUE)
+season2_homegoals = rowSums(season2_match[, , 1], na.rm = TRUE)
+season2_guestgoals = colSums(season2_match[, , 2], na.rm = TRUE)
+season3_homegoals = rowSums(season3_match[, , 1], na.rm = TRUE)
+season3_guestgoals = colSums(season3_match[, , 2], na.rm = TRUE)
+season4_homegoals = rowSums(season4_match[, , 1], na.rm = TRUE)
+season4_guestgoals = colSums(season4_match[, , 2], na.rm = TRUE)
+season5_homegoals = rowSums(season5_match[, , 1], na.rm = TRUE)
+season5_guestgoals = colSums(season5_match[, , 2], na.rm = TRUE)
+
+season1_givengoals = rowSums(season1_match[, , 2], na.rm = TRUE)
+season1_receivedgoals = colSums(season1_match[, , 1], na.rm = TRUE)
+season2_givengoals = rowSums(season2_match[, , 2], na.rm = TRUE)
+season2_receivedgoals = colSums(season2_match[, , 1], na.rm = TRUE)
+season3_givengoals = rowSums(season3_match[, , 2], na.rm = TRUE)
+season3_receivedgoals = colSums(season3_match[, , 1], na.rm = TRUE)
+season4_givengoals = rowSums(season4_match[, , 2], na.rm = TRUE)
+season4_receivedgoals = colSums(season4_match[, , 1], na.rm = TRUE)
+season5_givengoals = rowSums(season5_match[, , 2], na.rm = TRUE)
+season5_receivedgoals = colSums(season5_match[, , 1], na.rm = TRUE)
+
+# seasons_homegoals gives the total home goals of each home team in each season
+seasons_homegoals = matrix(, nrow = 25, ncol = 7)
+rownames(seasons_homegoals) = teams
+colnames(seasons_homegoals) = c("season1", "season2", "season3", "season4", "season5", "participation", "parameter")
+
+for(r in rownames(seasons_homegoals)){
+    seasons_homegoals[r,"season1"] = season1_homegoals[r]
+    seasons_homegoals[r,"season2"] = season2_homegoals[r]
+    seasons_homegoals[r,"season3"] = season3_homegoals[r]
+    seasons_homegoals[r,"season4"] = season4_homegoals[r]
+}
+seasons_homegoals[,"participation"] = apply(seasons_homegoals, 1, function(x) 7-sum(is.na(x)))
+
+
+for(r in rownames(seasons_homegoals)){
+  r = toString(r)
+  #w = 1/seasons_homegoals[r, "participation"]
+  #weighted_goal = 0
+  goals = 0
+  for(s in 1:4){
+    if(!is.na(seasons_homegoals[r,s])) goals = goals + seasons_homegoals[r,s]
+  }
+  seasons_homegoals[r, "parameter"] = goals / (seasons_homegoals[r, "participation"] * 17)
+}
+# seasons_guestgoals gives the total guest goals of each guest team in each season
+seasons_guestgoals = matrix(, nrow = 25, ncol = 7)
+rownames(seasons_guestgoals) = teams
+colnames(seasons_guestgoals) = c("season1", "season2", "season3", "season4", "season5", "participation", "parameter")
+
+for(r in rownames(seasons_guestgoals)){
+  r = toString(r)
+  seasons_guestgoals[r,"season1"] = season1_guestgoals[r]
+  seasons_guestgoals[r,"season2"] = season2_guestgoals[r]
+  seasons_guestgoals[r,"season3"] = season3_guestgoals[r]
+  seasons_guestgoals[r,"season4"] = season4_guestgoals[r]
+}
+seasons_guestgoals[,"participation"] = apply(seasons_guestgoals, 1, function(x) 7-sum(is.na(x)))
+
+for(r in rownames(seasons_guestgoals)){
+  #w = 1/seasons_guestgoals[r, "participation"]
+  #weighted_goal = 0
+  r = toString(r)
+  goals = 0
+  for(s in 1:4){
+    if(!is.na(seasons_guestgoals[r,s])) goals = goals + seasons_guestgoals[r,s]
+  }
+  seasons_guestgoals[r, "parameter"] = goals / (seasons_guestgoals[r, "participation"] * 17)
+}
+
+seasons_givengoals = matrix(, nrow = 25, ncol = 7)
+rownames(seasons_givengoals) = teams
+colnames(seasons_givengoals) = c("season1", "season2", "season3", "season4", "season5", "participation", "parameter")
+
+for(r in rownames(seasons_givengoals)){
+  seasons_givengoals[r,"season1"] = season1_givengoals[r]
+  seasons_givengoals[r,"season2"] = season2_givengoals[r]
+  seasons_givengoals[r,"season3"] = season3_givengoals[r]
+  seasons_givengoals[r,"season4"] = season4_givengoals[r]
+}
+
+seasons_givengoals[,"participation"] = apply(seasons_givengoals, 1, function(x) 7-sum(is.na(x)))
+
+for(r in rownames(seasons_givengoals)){
+  #w = 1/seasons_givengoals[r, "participation"]
+  #weighted_goal = 0
+  r = toString(r)
+  goals = 0
+  for(s in 1:4){
+    if(!is.na(seasons_givengoals[r,s])) goals = goals + seasons_givengoals[r,s]
+  }
+  seasons_givengoals[r, "parameter"] = goals / (seasons_givengoals[r, "participation"] * 17)
+}
+
+seasons_receivedgoals = matrix(, nrow = 25, ncol = 7)
+rownames(seasons_receivedgoals) = teams
+colnames(seasons_receivedgoals) = c("season1", "season2", "season3", "season4", "season5", "participation", "parameter")
+
+for(r in rownames(seasons_receivedgoals)){
+  r = toString(r)
+  seasons_receivedgoals[r,"season1"] = season1_receivedgoals[r]
+  seasons_receivedgoals[r,"season2"] = season2_receivedgoals[r]
+  seasons_receivedgoals[r,"season3"] = season3_receivedgoals[r]
+  seasons_receivedgoals[r,"season4"] = season4_receivedgoals[r]
+}
+
+seasons_receivedgoals[,"participation"] = apply(seasons_receivedgoals, 1, function(x) 7-sum(is.na(x)))
+
+for(r in rownames(seasons_receivedgoals)){
+  r = toString(r)
+  #w = 1/seasons_receivedgoals[r, "participation"]
+  #weighted_goal = 0
+  goals = 0
+  for(s in 1:4){
+    if(!is.na(seasons_receivedgoals[r,s])) goals = goals + seasons_receivedgoals[r,s]
+  }
+  seasons_receivedgoals[r, "parameter"] = goals / (seasons_receivedgoals[r, "participation"] * 17)
+}
+
+
+# ULTIMATE MATRIX
+parameters = cbind(seasons_homegoals[,"parameter"], seasons_guestgoals[,"parameter"], seasons_givengoals[,"parameter"], seasons_receivedgoals[,"parameter"])
+colnames(parameters) = c("home_scored", "guest_scored", "home_received", "guest_received")
+
+
+parameters
+parameters = parameters[!rownames(parameters) == "Leipzig",] # Leipzig did not participate in the first 4 seasons
+```
+
+Prediction
+```{r}
+# prediction
+poisson<-function(mu){
+  
+  p=sapply(0:10,function(i) dpois(i, mu) )
+  return(p)
+}
+
+GuessScore<-function(GoalHomeTeam,GoalGuestTeam){
+  details<-c(which.max(GoalHomeTeam)-1,which.max(GoalGuestTeam)-1,max(GoalHomeTeam)*max(GoalGuestTeam))
+  return(details)
+}
+
+GetProbability<-function(GoalHomeTeam,GoalGuestTeam){
+  sum=0
+  for (i in 2:10) {
+    for (j in 1:i-1){
+      sum=c(sum,GoalHomeTeam[i]*GoalGuestTeam[j])
+    }
+  }
+  Draw=sum(GoalHomeTeam*GoalGuestTeam)
+  HomeWin=sum(sum)
+  HomeLoss=1-(HomeWin+Draw)
+  
+  return(c(HomeWin,HomeLoss,Draw))
+}
+
+Predictor<-function(HomeAttack, HomeDefence, GuestAttack, GuestDefence, mean_guest_received, mean_home_received){
+  
+  #mu or mean goals scored by each team
+  muHome=HomeAttack*GuestDefence/mean_guest_received
+  muGuest=GuestAttack*HomeDefence/mean_home_received
+  
+  #Get PMF of goals upto 10 for each team
+  PMFGoalsHomeTeam=poisson(muHome)
+  PMFGoalsGuestTeam=poisson(muGuest)
+  
+  # return array with predicted goals Home,Guest,probability
+  MostProbableScorline=GuessScore(PMFGoalsHomeTeam,PMFGoalsGuestTeam)
+  
+  #return array with probability of HomeWin,HomeLoss, Draw
+  Probability=GetProbability(PMFGoalsHomeTeam,PMFGoalsGuestTeam)
+  
+  HomeScores = Probability[1] * 3 + Probability[2] * 1
+  GuestScores = Probability[2] * 3 + Probability[2] * 1
+  
+  return(c(MostProbableScorline,Probability, HomeScores, GuestScores))
+}
+
+AccuracyMatch <- function(test){
+  correct = 0
+  for (r in (1:nrow(test))) {
+    target = test[r, "outcome"]
+    prediction = test[r, "test_outcome"]
+    correct = correct + ifelse(target == prediction, 1,0)
+  }
+  return(correct/nrow(test))
+}
+```
+
+Test
+```{r}
+test = season5
+test <- test[-1:-3]
+test$test_homegoals <- NA
+test$test_guestgoals <- NA
+test$test_confidence <- NA
+test$test_pwin <- NA
+test$test_ploss <- NA
+test$test_pdraw <- NA
+test$test_homescore <- NA
+test$test_guestscore <- NA
+
+test = test[!test$home == "Leipzig",]
+test = test[!test$guest == "Leipzig",]
+
+num = nrow(test)
+mean_guest_received = mean(parameters[, "guest_received"])
+mean_home_received = mean(parameters[, "home_received"])
+for(r in 1:num){
+  home = toString(test[r, "home"])
+  guest = toString(test[r, "guest"])
+  test[r, 7:14] = Predictor(parameters[home, "home_scored"], parameters[home, "home_received"], parameters[guest, "guest_scored"], parameters[guest, "guest_received"] , mean_guest_received, mean_home_received)
+  
+}
+
+test$test_outcome = with(test, ifelse(
+  test_homegoals > test_guestgoals,
+  "win",
+  ifelse(test_homegoals == test_guestgoals, "draw", "lose")
+))
+
+test
+print("Accuracy of the match result is ")
+AccuracyMatch(test)
+
+```
+
+Result
+```{r}
+# seasons_result gives the final result of each team in each season
+seasons_result = matrix(data = NA, nrow = 25, ncol = 4)
+rownames(seasons_result) = teams
+colnames(seasons_result) = c("season5_result", "season5_ranking", "test", "test_ranking")
+
+for(r in rownames(seasons_result)){
+  r = toString(r)
+    seasons_result[r,"season5_result"] =  3 * length(season5$outcome[season5$home == r & season5$outcome == "win"]) + 3 * length(season5$outcome[season5$guest == r & season5$outcome == "lose"]) +1 * length(season5$outcome[(season5$home == r | season5$guest == r) & season5$outcome == "draw"])
+    seasons_result[r,"test"] =  sum(test$test_homescore[(test$home == r)]) + sum(test$test_guestscores[(test$guest == r)])
+}
+seasons_result = seasons_result[order(seasons_result[,"season5_result"], decreasing = T),]
+seasons_result[,"season5_ranking"] = rank(-seasons_result[,"season5_result"], ties.method = "min")
+seasons_result[,"test_ranking"] = rank(-seasons_result[,"test"], ties.method = "min")
+seasons_result # Leipzig is discounting scores for every other teams, so we have to generate data for Leipzig for at least Season 4
+```
+
+Data Generation for Leipzig: mean of the last 5 teams 
+```{r}
+parameters = rbind(parameters, 0)
+rownames(parameters)[25] = "Leipzig"
+parameters["Leipzig", "home_scored"] = (parameters["Hannover", "home_scored"] + parameters["Stuttgart", "home_scored"] + parameters["E. Frankfurt", "home_scored"] + parameters["Hoffenheim", "home_scored"] + parameters["Darmstadt", "home_scored"])/5
+parameters["Leipzig", "guest_scored"] = (parameters["Hannover", "guest_scored"] + parameters["Stuttgart", "guest_scored"] + parameters["E. Frankfurt", "guest_scored"] + parameters["Hoffenheim", "guest_scored"] + parameters["Darmstadt", "guest_scored"])/5
+parameters["Leipzig", "home_received"] = (parameters["Hannover", "home_received"] + parameters["Stuttgart", "home_received"] + parameters["E. Frankfurt", "home_received"] + parameters["Hoffenheim", "home_received"] + parameters["Darmstadt", "home_received"])/5
+parameters["Leipzig", "guest_received"] = (parameters["Hannover", "guest_received"] + parameters["Stuttgart", "guest_received"] + parameters["E. Frankfurt", "guest_received"] + parameters["Hoffenheim", "guest_received"] + parameters["Darmstadt", "guest_received"])/5
+
+parameters
+```
+```{r}
+test = season5
+test <- test[-1:-3]
+test$test_homegoals <- NA
+test$test_guestgoals <- NA
+test$test_accuracy <- NA
+test$test_pwin <- NA
+test$test_ploss <- NA
+test$test_pdraw <- NA
+test$test_homescore <- NA
+test$test_guestscore <- NA
+
+
+num = nrow(test)
+mean_guest_received = mean(parameters[, "guest_received"])
+mean_home_received = mean(parameters[, "home_received"])
+for(r in 1:num){
+  home = toString(test[r, "home"])
+  guest = toString(test[r, "guest"])
+  
+  test[r, 7:14] = Predictor(parameters[home, "home_scored"], parameters[home, "home_received"], parameters[guest, "guest_scored"], parameters[guest, "guest_received"], mean_guest_received, mean_home_received)
+}
+
+
+test$test_outcome = with(test, ifelse(
+  test_homegoals > test_guestgoals,
+  "win",
+  ifelse(test_homegoals == test_guestgoals, "draw", "lose")
+))
+
+test
+print("Accuracy of the match result is ")
+AccuracyMatch(test)
+```
+
+Result of Data Engineering
+```{r}
+seasons_result = cbind(seasons_result, 0)
+seasons_result = cbind(seasons_result, 0)
+colnames(seasons_result)[5] = "test_with_leipzig"
+colnames(seasons_result)[6] = "test_with_leipzig_ranking"
+
+for(r in rownames(seasons_result)){
+  r = toString(r)
+    seasons_result[r,"test_with_leipzig"] = sum(test$test_homescore[(test$home == r)]) + sum(test$test_guestscores[(test$guest == r)])
+}
+seasons_result[,"test_with_leipzig_ranking"] = rank(-seasons_result[,"test_with_leipzig"], ties.method = "min")
+seasons_result
+
+```
+
+Result still does not look good...Try normalising the parameters and gives different weightages
+```{r}
+
+# seasons_homegoals gives the total home goals of each home team in each season
+seasons_homegoals = matrix(, nrow = 25, ncol = 7)
+rownames(seasons_homegoals) = teams
+colnames(seasons_homegoals) = c("season1", "season2", "season3", "season4", "season5", "participation", "parameter")
+
+for(r in rownames(seasons_homegoals)){
+  r = toString(r)
+  seasons_homegoals[r,"season1"] = season1_homegoals[r]
+  seasons_homegoals[r,"season2"] = season2_homegoals[r]
+  seasons_homegoals[r,"season3"] = season3_homegoals[r]
+  seasons_homegoals[r,"season4"] = season4_homegoals[r]
+}
+seasons_homegoals[,"participation"] = apply(seasons_homegoals, 1, function(x) 7-sum(is.na(x)))
+
+w = c(0.1,0.2,0.3, 0.4)
+for(r in rownames(seasons_homegoals)){
+  r = toString(r)
+  #w = 1/seasons_homegoals[r, "participation"]
+  #weighted_goal = 0
+  goals = 0
+   for(s in 1:4){
+    if(!is.na(seasons_homegoals[r,s])) goals = goals + seasons_homegoals[r,s]*w[s]#*s/10.0
+  }
+  seasons_homegoals[r, "parameter"] = goals / (seasons_homegoals[r, "participation"] * 17)
+}
+# seasons_guestgoals gives the total guest goals of each guest team in each season
+seasons_guestgoals = matrix(, nrow = 25, ncol = 7)
+rownames(seasons_guestgoals) = teams
+colnames(seasons_guestgoals) = c("season1", "season2", "season3", "season4", "season5", "participation", "parameter")
+
+for(r in rownames(seasons_guestgoals)){
+  r = toString(r)
+  seasons_guestgoals[r,"season1"] = season1_guestgoals[r]
+  seasons_guestgoals[r,"season2"] = season2_guestgoals[r]
+  seasons_guestgoals[r,"season3"] = season3_guestgoals[r]
+  seasons_guestgoals[r,"season4"] = season4_guestgoals[r]
+}
+seasons_guestgoals[,"participation"] = apply(seasons_guestgoals, 1, function(x) 7-sum(is.na(x)))
+
+for(r in rownames(seasons_guestgoals)){
+  r = toString(r)
+  #w = 1/seasons_guestgoals[r, "participation"]
+  #weighted_goal = 0
+  goals = 0
+   for(s in 1:4){
+    if(!is.na(seasons_guestgoals[r,s])) goals = goals + seasons_guestgoals[r,s]*w[s]#*s/10.0
+  }
+  seasons_guestgoals[r, "parameter"] = goals / (seasons_guestgoals[r, "participation"] * 17)
+}
+
+seasons_givengoals = matrix(, nrow = 25, ncol = 7)
+rownames(seasons_givengoals) = teams
+colnames(seasons_givengoals) = c("season1", "season2", "season3", "season4", "season5", "participation", "parameter")
+
+for(r in rownames(seasons_givengoals)){
+  r = toString(r)
+  seasons_givengoals[r,"season1"] = season1_givengoals[r]
+  seasons_givengoals[r,"season2"] = season2_givengoals[r]
+  seasons_givengoals[r,"season3"] = season3_givengoals[r]
+  seasons_givengoals[r,"season4"] = season4_givengoals[r]
+}
+
+seasons_givengoals[,"participation"] = apply(seasons_givengoals, 1, function(x) 7-sum(is.na(x)))
+
+for(r in rownames(seasons_givengoals)){
+  r = toString(r)
+  #w = 1/seasons_givengoals[r, "participation"]
+  #weighted_goal = 0
+  goals = 0
+  for(s in 1:4){
+    if(!is.na(seasons_givengoals[r,s])) goals = goals + seasons_givengoals[r,s]*w[s]#*s/10.0
+  }
+  seasons_givengoals[r, "parameter"] = goals / (seasons_givengoals[r, "participation"] * 17)
+}
+
+seasons_receivedgoals = matrix(, nrow = 25, ncol = 7)
+rownames(seasons_receivedgoals) = teams
+colnames(seasons_receivedgoals) = c("season1", "season2", "season3", "season4", "season5", "participation", "parameter")
+
+for(r in rownames(seasons_receivedgoals)){
+  r = toString(r)
+  seasons_receivedgoals[r,"season1"] = season1_receivedgoals[r]
+  seasons_receivedgoals[r,"season2"] = season2_receivedgoals[r]
+  seasons_receivedgoals[r,"season3"] = season3_receivedgoals[r]
+  seasons_receivedgoals[r,"season4"] = season4_receivedgoals[r]
+}
+
+seasons_receivedgoals[,"participation"] = apply(seasons_receivedgoals, 1, function(x) 7-sum(is.na(x)))
+
+for(r in rownames(seasons_receivedgoals)){
+  r = toString(r)
+  #w = 1/seasons_receivedgoals[r, "participation"]
+  #weighted_goal = 0
+  goals = 0
+  for(s in 1:4){
+    if(!is.na(seasons_receivedgoals[r,s])) goals = goals + seasons_receivedgoals[r,s]*w[s]#*s/10.0
+  }
+  seasons_receivedgoals[r, "parameter"] = goals / (seasons_receivedgoals[r, "participation"] * 17)
+}
+
+
+# ULTIMATE MATRIX
+parameters = cbind(seasons_homegoals[,"parameter"], seasons_guestgoals[,"parameter"], seasons_givengoals[,"parameter"], seasons_receivedgoals[,"parameter"])
+colnames(parameters) = c("home_scored", "guest_scored", "home_received", "guest_received")
+#parameters[,"home_scored"]=parameters[,"home_scored"]/mean(parameters[,"home_scored"], na.rm=TRUE)
+#parameters[,"guest_scored"]=parameters[,"guest_scored"]/mean(parameters[,"guest_scored"], na.rm=TRUE)
+
+parameters["Leipzig", "home_scored"] = (parameters["Hannover", "home_scored"] + parameters["Stuttgart", "home_scored"] + parameters["E. Frankfurt", "home_scored"] + parameters["Hoffenheim", "home_scored"] + parameters["Darmstadt", "home_scored"])/5
+parameters["Leipzig", "guest_scored"] = (parameters["Hannover", "guest_scored"] + parameters["Stuttgart", "guest_scored"] + parameters["E. Frankfurt", "guest_scored"] + parameters["Hoffenheim", "guest_scored"] + parameters["Darmstadt", "guest_scored"])/5
+parameters["Leipzig", "home_received"] = (parameters["Hannover", "home_received"] + parameters["Stuttgart", "home_received"] + parameters["E. Frankfurt", "home_received"] + parameters["Hoffenheim", "home_received"] + parameters["Darmstadt", "home_received"])/5
+parameters["Leipzig", "guest_received"] = (parameters["Hannover", "guest_received"] + parameters["Stuttgart", "guest_received"] + parameters["E. Frankfurt", "guest_received"] + parameters["Hoffenheim", "guest_received"] + parameters["Darmstadt", "guest_received"])/5
+
+parameters
+
+test = season5
+test <- test[-1:-3]
+test$test_homegoals <- NA
+test$test_guestgoals <- NA
+test$test_accuracy <- NA
+test$test_pwin <- NA
+test$test_ploss <- NA
+test$test_pdraw <- NA
+test$test_homescore <- NA
+test$test_guestscore <- NA
+
+
+num = nrow(test)
+mean_guest_received = mean(parameters[, "guest_received"])
+mean_home_received = mean(parameters[, "home_received"])
+
+for(r in 1:num){
+  home = toString(test[r, "home"])
+  guest = toString(test[r, "guest"])
+  test[r, 7:14] = Predictor(parameters[home, "home_scored"], parameters[home, "home_received"], parameters[guest, "guest_scored"], parameters[guest, "guest_received"], mean_guest_received, mean_home_received)
+}
+
+
+test$test_outcome = with(test, ifelse(
+  test_homegoals > test_guestgoals,
+  "win",
+  ifelse(test_homegoals == test_guestgoals, "draw", "lose")
+))
+test
+print("Accuracy of the match result is ")
+AccuracyMatch(test)
+
+seasons_result = cbind(seasons_result, 0)
+seasons_result = cbind(seasons_result, 0)
+colnames(seasons_result)[7] = "test_normalised"
+colnames(seasons_result)[8] = "test_normalised_ranking"
+
+for(r in rownames(seasons_result)){
+  r = toString(r)
+    seasons_result[r,"test_normalised"] =  sum(test$test_homescore[(test$home == r)]) + sum(test$test_guestscores[(test$guest == r)])
+}
+seasons_result[,"test_normalised_ranking"] = rank(-seasons_result[,"test_normalised"], ties.method = "min")
+seasons_result
+
+actual_rank = seasons_result[1:17,"season5_ranking"]
+test_rank = seasons_result[1:17,"test_ranking"]
+test_leipzig = seasons_result[1:17,"test_with_leipzig_ranking"]
+test_normalised = seasons_result[1:17,"test_normalised_ranking"]
+
+AccuracyRanking <- function(actual, test){
+  return ((actual-test)^2)
+}
+Accuracy = cbind(AccuracyRanking(actual_rank, test_rank), AccuracyRanking(actual_rank, test_leipzig), AccuracyRanking(actual_rank, test_normalised))
+colnames(Accuracy) = c("test", "test_leipzig", "test_normalised")
+print("Accuracy of the ranking for test, test_leipzig, test_normalised: ")
+sum(Accuracy[,"test"])
+sum(Accuracy[,"test_leipzig"])
+sum(Accuracy[,"test_normalised"])
+```
+
+Exclude Leipzig's ranking
+```{r}
+seasons_result_no_leipzig = seasons_result[-2,]
+
+seasons_result_no_leipzig[,"season5_ranking"] = rank(-seasons_result_no_leipzig[,"season5_result"], ties.method = "min")
+seasons_result_no_leipzig[,"test_ranking"] = rank(-seasons_result_no_leipzig[,"test"], ties.method = "min")
+seasons_result_no_leipzig[,"test_with_leipzig_ranking"] = rank(-seasons_result_no_leipzig[,"test_with_leipzig"], ties.method = "min")
+seasons_result_no_leipzig[,"test_normalised_ranking"] = rank(-seasons_result_no_leipzig[,"test_normalised"], ties.method = "min")
+seasons_result_no_leipzig = seasons_result_no_leipzig[order(seasons_result_no_leipzig[,"season5_ranking"]),]
+actual_rank = seasons_result_no_leipzig[1:17,"season5_ranking"]
+test_rank = seasons_result_no_leipzig[1:17,"test_ranking"]
+test_leipzig = seasons_result_no_leipzig[1:17,"test_with_leipzig_ranking"]
+test_normalised = seasons_result_no_leipzig[1:17,"test_normalised_ranking"]
+
+AccuracyRanking <- function(actual, test){
+  return ((actual-test)^2)
+}
+Accuracy = cbind(AccuracyRanking(actual_rank, test_rank), AccuracyRanking(actual_rank, test_leipzig), AccuracyRanking(actual_rank, test_normalised))
+colnames(Accuracy) = c("test", "test_leipzig", "test_normalised")
+print("Accuracy of the ranking for test, test_leipzig, test_normalised: ")
+sum(Accuracy[,"test"])
+sum(Accuracy[,"test_leipzig"])
+sum(Accuracy[,"test_normalised"])
+```
